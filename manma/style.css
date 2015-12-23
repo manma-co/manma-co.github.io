@@ -157,12 +157,12 @@ html,body {
   padding-bottom: 30px;
 }
 
-#section_wrap{
+#section_media{
   width: 100%;
   height: 820px;
 }
 
-#section_media {
+.section_3colums {
   width: 280px;
   float: left;
   padding-right: 40px;
@@ -171,7 +171,7 @@ html,body {
   overflow: hidden;
 }
 
-.section_media_3colums{
+.section_media_column{
   height: 400px;
 }
 
@@ -179,7 +179,6 @@ html,body {
   width: 100%;
   height: 200px;
   display: block;
-  padding: 5px;
 }
 
 #section_media_line{
@@ -235,13 +234,38 @@ html,body {
 
 #section_menbers {
   width: 960px;
-  height: 1000px;
+  height: 420px;
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #f19ebf;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6d2db;
+}
+
+.section_2colums {
+  width: 360px;
+  height: 420px;
+  float: left;
+  padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
+}
+
+.section_members_img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.menber_comment{
+  word-wrap: break-word;
+  color: #fff;
+/*  margin-left: auto;
+  margin-right: auto;*/
+  font-size: 15px;
 }
 
 /*-----QA-----*/
