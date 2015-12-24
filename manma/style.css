@@ -85,26 +85,33 @@ html,body {
 /*-----MAIN-----*/
 
 #main{
-  height: 500px;
+  width: 1300px;
+  height: 460px;
 }
 
-#main img{
-  width: auto;
-  max-height: 450px;
+#main_img{
+  width: 1024px;
+  height: 440px;
+  display: block;
+  margin: 0 auto;
+  background-color: #5a4c55;
 }
 
+#owl-controls{
+  height: 20px;
+  padding: 20px 0;
+}
+
+#owl-dots{
+  height: 100px;
+}
 
 .owl-carousel .owl-item img{
   width: auto !important;
-  width: 1200px;
-}
-
-.news_one_name a{
-    color: #666;
-    font-size: 10px;
-}
-
-.news_one_name a:hover{
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
@@ -124,7 +131,10 @@ html,body {
     margin-top: 10px !important;
 }
 
-.owl-stage
+.owl-stage {
+  transform: translate3d(-3840px, 0px, 0px);
+  transition: 0.25s;
+}
 
 
 /*-----ABOUT-----*/
@@ -142,7 +152,7 @@ html,body {
 }
 
 #section_merit {
-  
+
 }
 
 /*-----MEDIA-----*/
@@ -255,8 +265,6 @@ html,body {
 p.menber_comment{
   word-wrap: break-word;
   color: #fff;
-/*  margin-left: auto;
-  margin-right: auto;*/
   font-size: 15px;
 }
 
