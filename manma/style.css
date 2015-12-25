@@ -13,7 +13,7 @@ html,body {
   margin: 0;
   padding: 0;
   background-color #e798b6;
-  width: 1200px;
+  width: 100%;
   text-align: center;
 }
 
@@ -98,12 +98,16 @@ html,body {
 }
 
 #owl-controls{
+  height: 40px;
+  padding: 10px 0;
+}
+
+#owl-nav{
   height: 20px;
-  padding: 20px 0;
 }
 
 #owl-dots{
-  height: 100px;
+  height: 20px;
 }
 
 .owl-carousel .owl-item img{
@@ -140,11 +144,12 @@ html,body {
 /*-----ABOUT-----*/
 
 #ABOUT {
-  width: 1050px;
+  width: 100%;
   height: 850px;
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 30px 0;
+  background-color: #f9f5c4;
 }
 
 #section_flow {
@@ -291,7 +296,62 @@ p.menber_comment{
 /*-----footer-----*/
 
 #footer {
+  background-color: #e798b6;
+}
 
+#footer_inline {
+  margin: 0;
+  padding: 30px 0 14px 0;
+  width: 80%;
+  height: 50px;
+  left: 50%;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  padding-right: 100px;
+  list-style-type: none;
+}
+
+#footer li {
+  float: left;
+  width:  100px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#footer_sns {
+  width: 10px;
+  height: 10px;
+}
+
+#footer a {
+  text-align: center;
+  display:  block;
+  width: 100%
+}
+
+#footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#copyright {
+  text-align: center;
 }
 
 h1 {
