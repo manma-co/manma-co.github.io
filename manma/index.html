@@ -12,7 +12,7 @@
   <meta name="keywords" content="manma,家族留学,manma 家族留学,新居日南恵,女子大生 キャリア">
   <meta name="description" content="manmaとはいまの女子大生の手で安心して母になれる社会をつくるをコンセプトに活動する女子大生の団体です。主に、女子大生のライフキャリアを考える、家族留学などの事業を行っています。">
   <title>manma</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="shortcut icon" href="http://manma.co/wp-content/uploads/2014/02/favicon.gif" width="32" height="32">
   <meta property="og:title" content="manma">
   <meta property="og:type" content="website">
@@ -27,36 +27,52 @@
     ga('create', 'UA-47204978-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div id="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="header">
-            <div id="header_inline">
-              <a href="http://manma.co"><img id="header_logo" src="http://manma.co/wp-content/uploads/2015/04/logo.png" alt="manma"></a>
-              <ul>
-                <li><a href="http://manma.co/about/"><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
-                <li><a href="http://manma.co/member/"><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
-                <li><a href="http://manma.co/project/"><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
-                <li><a href="http://manma.co/category/news/"><strong>TEAM</strong><br><small>manmaとは</small></a></li>
-                <li><a href="http://manma.co/contact/"><strong>Q&A</strong><br><small>質問</small></a></li>
-                <li><a href=""><strong>ENTRY</strong><br><small>申込みフォーム</small></a></li>
-              </ul>
-            </div>
-          </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+          <span class="sr-only"><a href="http://manma.co"><img id="header_logo" src="http://manma.co/wp-content/uploads/2015/04/logo.png" alt="manma"></a></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a href="http://manma.co"><img id="header_logo" src="http://manma.co/wp-content/uploads/2015/04/logo.png" alt="manma"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://manma.co/about/"><span class="glyphicon glypicon-cutlery"></span><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
+            <li><a href="http://manma.co/member/"><span class="glyphicon glypicon-cutlery"></span><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
+            <li><a href="http://manma.co/project/"><span class="glyphicon glypicon-cutlery"></span><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
+            <li><a href="http://manma.co/category/news/"><span class="glyphicon glypicon-cutlery"></span><strong>TEAM</strong><br><small>manmaとは</small></a></li>
+            <li><a href="http://manma.co/contact/"><span class="glyphicon glypicon-cutlery"></span><strong>Q&A</strong><br><small>質問</small></a></li>
+            <li><button class="btn btn-default navbar-btn"><a href=""><strong>ENTRY</strong><br><small>申込みフォーム</small></a></button></li>
+          </ul>
         </div>
       </div>
+    </nav>
 
+    <div class="container-fluid">
       <div class="main">
         <div class="row">
           <div class="col-sm-12">
-            <p class="title">いまの女子大生の手で<br>安心して母になれる社会をつくる</p>
-            <div class="owl-controls">
+            <img src="image/main_img01.png" class="img-responsive">
+            <!-- <div class="owl-controls">
               <div class="owl-nav">
                 <div class="owl-prev">prev</div>
                 <div class="owl-next">next</div>
@@ -68,22 +84,19 @@
                 <div class="owl-dot"><span></span></div>
                 <div class="owl-dot"><span></span></div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
 
       <div id="about">
-        <div class="row">
+        <div class="row" id="about__description">
           <div class="col-sm-12">
-            <h2>ABOUT</h2>
-            <h3>家族留学とは</h3>
+            <h2 class="h2">ABOUT</h2>
+            <h3>家族留学とは？</h3>
               <div>
                 <p>
-                女子大生を中心とするプレママ・プレパパ世代が一日ご家庭のありのま<br>
-                まの日常に同行しママと子供の関わり方を見たりママの行き方について<br>
-                お話を伺うことを通じて多様な家族のあり方を知り自分の将来について<br>
-                仕事だけでなく結婚出産子育ても含めて前向きに考えてもらう企画です<br>
+                女子大生を中心とするプレママ・プレパパ世代が一日ご家庭のありのままの日常に同行しママと子供の関わり方を見たりママの行き方についてお話を伺うことを通じて多様な家族のあり方を知り自分の将来について仕事だけでなく結婚出産子育ても含めて前向きに考えてもらう企画です。
               </p>
             </div>
           </div>
@@ -172,34 +185,35 @@
           </div>
         </div>
         <div class="row">
-          <div class="media__colums">
-            <div class="media__colums_3colums">
-              <div class="col-sm-4">
-                <div class="media__colums_column">
-                  <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-                  <div class="media__colums_line"></div>
-                  <h4>2015.00.00</h4>
-                  <p class="media__colums_comment">【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media__colums_column">
-                  <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-                  <div class="media__colums_line"></div>
-                  <h4>2015.00.00</h4>
-                  <p class="media__colums_comment">【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media__colums_column">
-                  <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-                  <div class="media__colums_line"></div>
-                  <h4>2015.00.00</h4>
-                  <p class="media__colums_comment">【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
-                </div>
+          <div class="col-sm-4">
+            <div class="media__colums_column">
+              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
+              <div class="caption">
+                <h4>2015.00.00</h4>
+                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
               </div>
             </div>
           </div>
+          <div class="col-sm-4">
+            <div class="media__colums_column">
+              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
+              <div class="caption">
+                <h4>2015.00.00</h4>
+                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="media__colums_column">
+              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
+              <div class="caption">
+                <h4>2015.00.00</h4>
+                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
         <div class="row">
           <div class="col-sm-12">
