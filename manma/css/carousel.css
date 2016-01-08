@@ -37,6 +37,11 @@ body {
   background-color: #fff;
 }
 
+.member-wrapper {
+  width: 100%
+  background-image: url("image/member_niori.png");
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
