@@ -6,6 +6,8 @@ body {
   height: 100%;
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family: "GillSans", "FOT-TsukuGoPro-E", sans-serif;
+  /*font-family: 'Gill Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, sans-serif;*/
 }
 
 .navbar {
@@ -357,4 +359,13 @@ a {
 
 a:hover {
   color: #e798b6;
+}
+
+@font-face {
+    font-family: 'GillSans';
+    src: url('fonts/GillSans.ttc');
+    font-family: 'FOT-TsukuGoPro-E';
+    src: url('fonts/FOT-TsukuGoPro-E.otf') format('opentype')
+    font-weight: normal;
+    font-style: normal;
 }
