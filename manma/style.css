@@ -1,110 +1,44 @@
-html,body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: table;
-  position: relative;
-  font-family: "Gill Sans", "繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "Hiragino Kaku Gothic ProN", "繝｡繧､繝ｪ繧ｪ", Meiryo, sans-serif;
-  color: #5a4c55;
-}
 
 #wrap {
-  margin: 0;
-  padding: 0;
-  background-color #e798b6;
-  width: 1200px;
   text-align: center;
+  overflow: hidden;
 }
 
 
 /*-----header-----*/
 
-#header {
-  background-color: #e798b6;
-}
-
-#header_inline {
-  margin: 0;
-  padding: 30px 0 14px 0;
-  width: 80%;
-  height: 50px;
-  left: 50%;
-}
-
 #header_logo{
-  float: left;
-  width: 150px;
-  height: 25px;
-  padding-left: 100px;
-}
-
-#header ul {
-  margin: 0;
-  padding: 0;
-  width: 1200px;
-  padding-right: 100px;
-  list-style-type: none;
-}
-
-#header li {
-  float: left;
-  width:  100px;
-  margin-left: 10px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-#header_sns {
-  width: 10px;
-  height: 10px;
-}
-
-#header a {
-  text-align: center;
-  display:  block;
-  width: 100%
-}
-
-#header a:link {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header a:hover {
-  color: #fff;
-  text-decoration: none;
+  width: 230px;
+  height: 55px;
+  padding-top: 15px;
 }
 
 /*-----MAIN-----*/
 
 #main{
-  height: 500px;
+  width: 100%;
+  height: 460px;
 }
 
-#main img{
-  width: auto;
-  max-height: 450px;
+#owl-controls{
+  height: 40px;
+  padding: 10px 0;
 }
 
+#owl-nav{
+  height: 20px;
+}
+
+#owl-dots{
+  height: 20px;
+}
 
 .owl-carousel .owl-item img{
   width: auto !important;
-  width: 1200px;
-}
-
-.news_one_name a{
-    color: #666;
-    font-size: 10px;
-}
-
-.news_one_name a:hover{
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
@@ -124,96 +58,139 @@ html,body {
     margin-top: 10px !important;
 }
 
-.owl-stage
+.owl-stage {
+  transform: translate3d(-3840px, 0px, 0px);
+  transition: 0.25s;
+}
 
 
 /*-----ABOUT-----*/
 
-#ABOUT {
-  
+#about__description {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  background-color: #f9f5c4;
+  overflow: hidden;
 }
 
-#section_flow {
+.about__flow_left {
 
 }
 
-#section_merit {
-  
+.about__flow_right {
+
 }
+
+.about__flow_left,.about__flow_right:p {
+
+}
+
+.about__merit_left {
+
+}
+
+.about__merit_right {
+
+}
+
 
 /*-----MEDIA-----*/
 
-#MEDIA {
+.media__colums_img {
+    width: 290px;
+    height: 200px;
+    display: block;
 
-}
-
-#section_media {
-
+.button {
+  width:230px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 15px 15px;
+  font-size: 15px;
+  font-weight:bold;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  color:#fff;
+  background-color:#49a9d4;
+  border-radius:5px;
 }
 
 /*-----RESULT-----*/
 
-#RESULT {
+#result {
+  text-align: center;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.result__left {
 
 }
 
-#section_many {
+.result__right {
 
 }
 
-#section_menbers {
-  background-color: #f19ebf;
+.result__menbers {
+  width: 960px;
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding: 80px 0;
+  background-color: #f6d2db;
+}
 
+.result__2colums {
+  width: 360px;
+  height: 420px;
+  float: left;
+  padding: 0 60px;
+  overflow: hidden;
+}
+
+.result__members_img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.result__menber_comment{
+  word-wrap: break-word;
+  color: #fff;
+  font-size: 15px;
 }
 
 /*-----QA-----*/
 
-#QA {
-
+#qa {
+  width: 960px;
+  height: 900px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0 50px;
 }
 
 /*-----TEAM-----*/
 
-#TEAM {
-
+#team {
+  width: 960px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
 }
 
-/*-----footer-----*/
-
-#footer {
-
+.h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
-h1 {
-
-}
-
-h2 {
-  color: #e798b6;
-}
-
-h3 {
-  color: #e798b6;
-  font-size: 
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-.button {
-  background-color: #e798b6;
-
-}
-
-.2colums {
-
-}
-
-.3colums {
-
+.h3 {
+  font-size: 15px;
+  margin-top: 0px;
 }
