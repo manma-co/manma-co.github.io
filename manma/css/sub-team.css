@@ -1,0 +1,27 @@
+.content {
+  padding: 0 20%;
+}
+
+.team-member-wrapper {
+  padding: 0 20%;
+}
+
+.team-member-content {
+  padding: 20px 0 10px;
+}
+
+.member-title {
+  color: #3a3a3a;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.team-type {
+  background-color: #e798b6;
+  color: #fff;
+  font-size: 10px;
+  margin-left: 20px;
+  padding: 5px;
+}

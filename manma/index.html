@@ -1,500 +1,401 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <html lang="ja">
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Style-Type" content="style.css">
-  <meta name="google" value="notranslate">
-  <meta name="robots" content="ALL">
-  <meta name="google-site-verification" content="66EQE8ihkQmqzJRBTIWI7rX8xXX28RbuwjdbxcDasI4">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-  <meta name="keywords" content="manma,家族留学,manma 家族留学,新居日南恵,女子大生 キャリア">
-  <meta name="description" content="manmaとはいまの女子大生の手で安心して母になれる社会をつくるをコンセプトに活動する女子大生の団体です。主に、女子大生のライフキャリアを考える、家族留学などの事業を行っています。">
-  <title>manma</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="shortcut icon" href="image/favicon.png">
-  <meta property="og:title" content="manma">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="manma.co">
-  <meta property="og:image" content="http://manma.co/wp-content/uploads/2014/02/logo.jpg">
-  <script async="" src="//www.google-analytics.com/analytics.js"></script><script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- saved from url=(0048)http://getbootstrap.com/examples/carousel/#about -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="image/favicon.png">
 
-    ga('create', 'UA-47204978-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <title>manma</title>
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</head>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
 
-<body>
-  <div id="wrap">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only"><a href="http://manma.co"><img id="header_logo" src="http://manma.co/wp-content/uploads/2015/04/logo.png" alt="manma"></a></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
         </button>
-          <a href="http://manma.co"><img id="header_logo" src="http://manma.co/wp-content/uploads/2015/04/logo.png" alt="manma"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://manma.co/about/"><span class="glyphicon glypicon-cutlery"></span><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
-            <li><a href="http://manma.co/member/"><span class="glyphicon glypicon-cutlery"></span><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
-            <li><a href="http://manma.co/project/"><span class="glyphicon glypicon-cutlery"></span><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
-            <li><a href="http://manma.co/category/news/"><span class="glyphicon glypicon-cutlery"></span><strong>TEAM</strong><br><small>manmaとは</small></a></li>
-            <li><a href="http://manma.co/contact/"><span class="glyphicon glypicon-cutlery"></span><strong>Q&A</strong><br><small>質問</small></a></li>
-            <li><button class="btn btn-default navbar-btn"><a href=""><strong>ENTRY</strong><br><small>申込みフォーム</small></a></button></li>
-          </ul>
-        </div>
+        <a class="navbar-brand" href="http://manma.co"><img id="header_logo" src="image/logo.png" alt="manma"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about"><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
+          <li><a href="#voice"><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
+          <li><a href="#media"><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
+          <li><a href="#team"><strong>TEAM</strong><br><small>manmaとは</small></a></li>
+          <li><a href="#qa"><strong>Q&A</strong><br><small>質問</small></a></li>
+          <li><button class="btn btn-default navbar-btn"><a href="" class="navbar-a-btn"><strong>ENTRY</strong><br><small>申込みフォーム</small></a></button></li>
+        </ul>
       </div>
     </nav>
 
-    <div class="container-fluid">
-      <div class="main">
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="image/main_img01.png" class="img-responsive">
-            <!-- <div class="owl-controls">
-              <div class="owl-nav">
-                <div class="owl-prev">prev</div>
-                <div class="owl-next">next</div>
-              </div>
-              <div class="owl-dots">
-                <div class="owl-dot"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-                <div class="owl-dot active"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
+    <section id="carousel">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
 
-      <div id="about">
-        <div class="row" id="about__description">
-          <div class="col-sm-12">
-            <h2 class="h2">ABOUT</h2>
-            <h3>家族留学とは？</h3>
-              <div>
-                <p>
-                女子大生を中心とするプレママ・プレパパ世代が一日ご家庭のありのままの日常に同行しママと子供の関わり方を見たりママの行き方についてお話を伺うことを通じて多様な家族のあり方を知り自分の将来について仕事だけでなく結婚出産子育ても含めて前向きに考えてもらう企画です。
-              </p>
-            </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="item item1 active">
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="item item2">
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="item item3">
+            <div class="carousel-caption"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a class="button" href="">家族留学の流れ</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="about__left">
-              <img src="" alt="01">
-              <h3>登録</h3>
-              <p>まずは、登録フォームから家族留学への登録をしてください。1週間以内にご連絡いたします。</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="about__right">
-              <img src="" alt="家族留学イメージ画像">
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="about__left">
-              <img src="" alt="家族留学イメージ画像">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="about__right">
-              <img src="" alt="02">
-              <h3>マッチング</h3>
-              <p>manmaのメンバーと面談します。学生側の希望(キャリア展望・知りたいこと等)を聞いたあと、その意見をもとにご家族とのマッチングを行います。</p>
-              <p>*一度に複数人受け入れてくださる場合は追加で女子大生を募集</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="about__flow_left">
-              <img src="" alt="03">
-              <h3>家族留学</h3>
-              <p>無事マッチングが終了し、家族留学当日を待つのみ！当日の1~2週間前に学生とご家族をおつなぎします。その日がくることを楽しみに待っていてくださいね♪</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="about__flow_right">
-              <img src="" alt="家族留学イメージ画像">
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="about__merit_left">
-              <p>
-                  「仕事」の面だけでなく、結婚や出産も含めた<br>
-                  女性の生き方のロールモデルに出会える<br>
-                  将来のイメージが湧く<br>
-                  将来に対してポジティブなイメージを持てる<br>
-                  子育てを体験出来る<br>
-                  気軽に相談できる先輩と出会える
-              </p>
-              <img alt="女子大生" src="">
-              <h4>女子大生</h4>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="about__merit_right">
-              <p>
-                  自分の経験を次世代に伝えることができる<br>
-                  子供に新しい出会いを届けてあげれる<br>
-                  自身の生き方や家庭に対する考え方を見つめなおせる
-              </p>
-              <h4>ご家庭</h4>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
 
-      <div id="media">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2>MEDIA</h2>
-            <h3>メディア掲載情報</h3>
-          </div>
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2 class="section-title">ABOUT</h2>
+          <h3 class="section-subtitle">家族留学とは？</h3>
         </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="media__colums_column">
-              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-              <div class="caption">
-                <h4>2015.00.00</h4>
-                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="media__colums_column">
-              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-              <div class="caption">
-                <h4>2015.00.00</h4>
-                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="media__colums_column">
-              <img class="media__colums_img" alt="掲載写真" src="image/example01.jpg">
-              <div class="caption">
-                <h4>2015.00.00</h4>
-                <p>【日経DUAL】未来のママたちが、安心してこどもを産める社会を目指して</p>
+        <div class="content center-content">
+          <div class="row about-content">
+            <div class="about-col content-item">
+              <p class="content-description">女子大生を中心とするプレママ・プレパパ世代が一日ご家庭のありのままの日常に同行しママと子供の関わり方を見たりママの行き方についてお話を伺うことを通じて多様な家族のあり方を知り自分の将来について仕事だけでなく結婚出産子育ても含めて前向きに考えてもらう企画です。</p>
+              <div class="resize-image-wrapper">
+                <img src="image/" alt="家族">
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a class="button" href="">詳しくはこちら</a>
+      <section id="flow" class="section">
+        <div class="section-header">
+          <div class="image-wrapper">
+            <img src="image/item-flow.png" alt="家族留学の流れ">
           </div>
         </div>
-      </div>
-
-      <div id="result">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>RESULT</h2>
-            <h3>実績</h3>
-            <div class="result__left">
-              <h4>学生登録数</h4>
-              <p>100名以上</p>
-              <p>全国の学生から募集があります。<br>地方のママさんのところへ行くこともあります。</p>
+        <div class="content center-content">
+          <div class="row flow-content">
+            <div class="flow-col col-sm-6 content-item">
+              <img src="image/item-01.png" alt="01">
+              <h2 class="content-title">登録</h2>
+              <p class="content-description">全国の学生から募集があります。地方のママさんのところへ行くこともあります。</p>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="result__right">
-              <h4>ママさん登録数</h4>
-              <p>80名以上</p>
-              <p>たくさんのママさんを始めとする家族にご協力いただいております。</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <h3>体験者の声</h3>
-        </div>
-        <div class="row">
-          <div class="result__menbers">
-            <div class="col-sm-6">
-              <div class="result__2colums">
-                <img class="result__members_img" alt="掲載写真" src="image/example01.jpg">
-                <h4>家族留学行ってよかったです</h4>
-                <h5>矢部さん(女子大生)</h5>
-                <p class="result__menber_comment">
-                  今まで2回家族留学に参加しました。2回とも同じ2人のお子さんがいるご家庭でしたが、一方は専業主婦のママでもう一方は総合職勤務のママ。変わらないところはなんらかの形で社会に貢献しようとしている姿でした。孤独な子育てをイメージしていましたが、家庭を育みながらも社会に向き合うママは、とてもかっこよくて憧れを感じました。
-                </p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="result__2colums">
-                <img class="result__members_img" alt="掲載写真" src="image/example01.jpg">
-                <h4>家族留学行ってよかったです</h4>
-                <h5>福家さん(受け入れ家族)</h5>
-                <p class="result__menber_comment">
-                学生さんたちが、私たち家族にジョインしてくれるのが、シンプルにすごく楽しい！「子育て」という、私にとっての日常を、学生さんたちは非日常として楽しんだり、驚いたりしてくれて、私が見たことない子どもたちの行動を引き出してくれることに、わくわくします。
-                </p>
+            <div class="flow-col col-sm-6">
+              <div class="image-wrapper">
+                <img class="flow-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="家族留学登録" src="" data-holder-rendered="true">
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a class="button" href="">もっと詳しく</a>
+        <div class="content center-content">
+          <div class="row flow-content">
+            <div class="flow-col col-sm-6">
+              <div class="image-wrapper">
+                <img class="flow-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="家族留学登録" src="" data-holder-rendered="true">
+              </div>
+            </div>
+            <div class="flow-col col-sm-6 content-item">
+              <img src="image/item-02.png" alt="02">
+              <h2 class="content-title">マッチング</h2>
+              <p class="content-description">manmaのメンバーと面談します。学生側の希望(キャリア展望・知りたいこと等)を聞いたあと、その意見をもとにご家族とのマッチングを行います。*一度に複数人受け入れてくださる場合は追加で女子大生を募集</p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a class="button" href="">家族留学ENTRY</a>
+        <div class="content center-content">
+          <div class="row flow-content">
+            <div class="flow-col col-sm-6 content-item">
+              <img src="image/item-03.png" alt="03">
+              <h2 class="content-title">登録</h2>
+              <p class="content-description">全国の学生から募集があります。地方のママさんのところへ行くこともあります。</p>
+            </div>
+            <div class="flow-col col-sm-6">
+              <div class="image-wrapper">
+                <img class="flow-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="家族留学登録" src="" data-holder-rendered="true">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="qa">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2>Q&A</h2>
-            <h3>質問</h3>
+      <section id="merit" class="section">
+        <div class="section-header">
+          <h2 class="section-title">MERIT</h2>
+          <h3 class="section-subtitle">女子大生と受け入れ家族双方のメリット</h3>
+        </div>
+        <div class="content center-content">
+          <div class="row merit-content">
+            <div class="merit-col col-sm-6 content-item">
+              <img class="merit-image img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="女子大生">
+              <h2 class="content-title">女子大生</h2>
+              <ul>
+                <li>「仕事」の面だけでなく、結婚や出産も含めた女性の生き方のロールモデルに出会える</li>
+                <li>将来のイメージが湧く</li>
+                <li>将来に対してポジティブなイメージを持てる</li>
+                <li>子育てを体験出来る</li>
+                <li>気軽に相談できる先輩と出会える</li>
+              </ul>
+            </div>
+            <div class="merit-col col-sm-6 content-item">
+              <img class="merit-image img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="ご家庭">
+              <h2 class="content-title">ご家庭</h2>
+              <ul>
+                <li>自分の経験を次世代に伝えることができる</li>
+                <li>子育てに新しい出会いを届けてあげられる</li>
+                <li>自分の生き方や家庭に対する考え方を見つめ直せる</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <h4>Q1：女子大生以外でも参加できますか？</h4>
-            <p>
-              はい。男子学生や高校生、大学院生の方の参加も歓迎しております。女<br>
-              子大生以外の方が参加される場合は、ご家庭に事前にご連絡し、承諾が<br>
-              取れたご家庭にマッチングしております。
-            </p>
-            <h4>Q2：事前に準備しておくことはありますか？</h4>
-            <p>
-              ご登録後、manmaから事前説明兼カウンセリングのご連絡をいたします<br>
-              ので、そちらにご参加いただいた際にご説明いたします。
-            </p>
-            <h4>Q3：参加費はかかりますか？</h4>
-            <p>
-              2家庭への家族留学をあなたのご希望をもとにマッチングする基本コース<br>
-              は1000円の参加費がかかります。日程に空きがある場合の追加募集は、<br>
-              500円で1家庭に参加することができます。もちろん、２回以上の参加も<br>大歓迎です。一度説明会を行ったあとは、オンラインのみでご参加でき<br>
-              ます。
-            </p>
-            <h4>Q4：東京都以外に在住なのですが、参加できますか？</h4>
-            <p>
-              受け入れ家庭があればどこでも開催いたします。ご登録時に記載いただ<br>
-              いた地区にて、マッチングが可能かmanmaからご連絡致します。受け入<br>
-              れ家庭があれば、オンライン決済とSkype説明会でご参加が可能です。
-            </p>
-            <h4>Q5：家族留学は一回にどのくらい時間がかかりますか？</h4>
-            <p>
-              受け入れ家庭のお住まいの場所にもよりますが、オーソドックスなのは<br>
-              午前中から午後20時頃までです。ご希望によって、平日の夜のみなどの<br>
-              開催も可能です。カウンセリングの際にご相談ください。
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
 
-      <div id="team">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2>TEAM</h2>
-            <h3>manmaとは</h3>
+      <section id="media" class="section">
+        <div class="section-header">
+          <h2 class="section-title">MEDIA</h2>
+          <h3 class="section-subtitle">メディア掲載情報</h3>
+        </div>
+        <div class="row media-content">
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+                <a href="http://dual.nikkei.co.jp/article.aspx?id=7474"><img src="image/media_DUAL.png" alt="日経DUAL" width="200" height="150"></a>
+              </div>
+              <hr>
+              <h5 class="media-title">2015.11.26<span class="media-type">ネット記事</span></h5>
+              <p class="content-description">【日経DUAL】子育て中の家庭を訪問する「家族留学」を展開。イマドキの女子大生の問題意識、結婚観とは？</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+                <a href="http://www.nhk.or.jp/shutoken/net/report/20151102.html"><img src="image/media_NHK.png" alt="NHK首都圏ネットワーク" width="200" height="150"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.11.02<span class="media-type">テレビ特集</span></h5>
+              <p class="content-description">【NHK首都圏ネットワーク】子育て家庭の本音聞く“家庭留学”</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+                <a href="http://www.mofa.go.jp/mofaj/fp/hr_ha/page22_001825.html"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="waw" width="200" height="150"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.08.25-26<span class="media-type">イベント登壇</span></h5>
+              <p class="content-description">【外務省】女性が輝く社会に向けた国際シンポジウムWAW!2015</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+                <a href="http://www.ntv.co.jp/zero/human/2015/05/3.html"><img src="image/media_ZERO.png" alt="NEWS ZERO" width="200" height="150"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.05.14<span class="media-type">テレビ特集</span></h5>
+              <p class="content-description">【日本テレビ NEWSZERO】ZERO HUMAN</p>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
-            <img src="" alt="新居日南恵">
+          <div class="image-wrapper">
+            <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">もっと詳しく</a>
           </div>
-          <div class="col-sm-8">
-            <h4>manma代表 新居 日南恵</h4>
+        </div>
+        <!-- <div class="row media-content">
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <a href="http://dual.nikkei.co.jp/article.aspx?id=7474"><img src="image/media_DUAL.png" alt="日経DUAL" width="300" height="200"></a>
+            </div>
             <hr>
-            <p>
-              manmaとは、"いまの女子大生の手で安心して母になれ<br>
-              る社会をつくる"をコンセプトに活動する、女子大生チー<br>
-              ムです。学生が現役子育て家庭の日常に1日同行し、生<br>
-              き方のロールモデルの生活を体験する「家族留学」の取<br>
-              り組みを中心に、就職前の学生に仕事のキャリアだけで<br>
-              なく、その先の結婚や出産も含め、主体的に人生を設計<br>
-              する機会を届けています。仕事だけでなく結婚<br>
-              出産子育ても含めて前向きに考えてもらう企画です。
-            </p>
-            <a class="button" href="">manmaスタッフ一覧</a>
-            <a class="button" href="">過去のプロジェクトはこちら</a>
+            <h5 class="media-title">2015.11.26<span class="media-type">ネット記事</span></h5>
+            <p class="content-description">【日経DUAL】子育て中の家庭を訪問する「家族留学」を展開。イマドキの女子大生の問題意識、結婚観とは？</p>
+          </div>
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <img src="image/media_nikkei.png" alt="日経新聞" width="300" height="200">
+            </div>
+            <hr>
+            <h5 class="content-title">2015.11.02<span class="media-type">新聞掲載</span></h5>
+            <p class="content-description">【日経新聞】働く・育児「こうなんだ」</p>
+          </div>
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <a href="http://www.nhk.or.jp/shutoken/net/report/20151102.html"><img src="image/media_NHK.png" alt="NHK首都圏ネットワーク" width="300" height="200"></a>
+            </div>
+            <hr>
+            <h5 class="content-title">2015.11.02<span class="media-type">テレビ特集</span></h5>
+            <p class="content-description">【NHK首都圏ネットワーク】子育て家庭の本音聞く“家庭留学”</p>
           </div>
         </div>
+        <div class="row media-content">
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <img src="image/media_yomiuri.png" alt="読売新聞" width="300" height="200">
+            </div>
+            <hr>
+            <h5 class="content-title">2015.08.02<span class="media-type">新聞掲載</span></h5>
+            <p class="content-description">【読売新聞】子育て一家に「留学」</p>
+          </div>
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <a href="http://www.mofa.go.jp/mofaj/fp/hr_ha/page22_001825.html"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="waw" width="300" height="200"></a>
+            </div>
+            <hr>
+            <h5 class="content-title">2015.08.25-26<span class="media-type">イベント登壇</span></h5>
+            <p class="content-description">【外務省】女性が輝く社会に向けた国際シンポジウムWAW!2015</p>
+          </div>
+          <div class="media-col col-lg-4 media-box">
+            <div class="image-wrapper">
+              <a href="http://www.ntv.co.jp/zero/human/2015/05/3.html"><img src="image/media_ZERO.png" alt="NEWS ZERO" width="300" height="200"></a>
+            </div>
+            <hr>
+            <h5 class="content-title">2015.05.14<span class="media-type">テレビ特集</span></h5>
+            <p class="content-description">【日本テレビ NEWSZERO】ZERO HUMAN</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="image-wrapper">
+            <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">もっと詳しく</a>
+          </div>
+        </div> -->
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-header">
+          <h2 class="section-title">RESEARCH</h2>
+          <h3 class="section-subtitle">実績</h3>
+        </div>
+        <div class="content center-content">
+          <div class="row research-content">
+            <div class="research-col col-sm-6 content-item">
+              <h6 class="content-title">学生登録数</h6>
+              <h4 class="content-subtitle">100名以上</h4>
+              <p class="content-description">全国の学生から募集があります。地方のママさんのところへ行くこともあります。</p>
+            </div>
+            <div class="research-col col-sm-6">
+              <h6 class="content-title">ママさん登録数</h6>
+              <h4 class="content-subtitle">80名以上</h4>
+              <p class="content-description">たくさんのママさんを始めとする家族にご協力いただいております。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="voice" class="section">
+        <div class="section-header">
+          <h2 class="section-title">VOICE</h2>
+          <h3 class="section-subtitle">体験者の声</h3>
+        </div>
+        <div class="content center-content">
+          <div class="row voice-content">
+            <div class="voice-col col-sm-6 content-item">
+              <img class="voice-image img-circle" src="image/voice_girl.png" alt="矢部さん">
+              <p class="content-title">社会貢献するママさんはかっこいい</p>
+              <p class="content-subtitle">矢部さん(女子大生)</p>
+              <p class="content-description">私が家族留学を通して変化した点は、状況が変わったら働き方も変えて良いと思えるようになったことです。転職したり、辞職したりということは無責任なのではないかという悩みもありましたが、ご夫婦や他の留学生に相談することができ、勇気づけられました。いろいろと考えていただいた子育てに関する具体的なアイディアは将来必ず役に立つと思えました。また、「こどもって可愛いな」と実感したり、「総合職勤務でも子育てはなんとかなるんだ」と知ったりすることができて良かったです。本当にこどもって素晴らしいです。</p>
+            </div>
+            <div class="voice-col col-sm-6 content-item">
+              <img class="voice-image img-circle" src="image/voice_family.png" alt="福家さん">
+              <p class="content-title">子供の新しい一面が見れました</p>
+              <p class="content-subtitle">福家さん(受け入れ家族)</p>
+              <p class="content-description">バギーやだっこ、ミルクやおむつ替えにお風呂まで、参加してくれた子たちがみんな積極的にやりたい！と言ってくれて楽しかったです。そして私たちも人生まだまだあって、語れるような年齢でもないのですが、いろんな人と出会うことはいろんな価値観を見ることができて、人生を豊かにしてくれるはず。私もいろんな価値観の人と出会いたいと思っていて、だから普段接点のない女子大生や女子高生と出会えるこの企画って素晴らしいな、と思ったんです。受け入れる家庭にも、参加する子たちにも、大切なものを与えてくれるのが家族留学だと思います。</p>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">もっと詳しく</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="entry" class="section">
+        <div class="image-wrapper">
+          <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button"><small>家族留学</small><strong>ENTRY</strong></a>
+        </div>
+      </section>
+
+      <section id="qa" class="section">
+        <div class="section-header">
+          <h2 class="section-title">Q&A</h2>
+          <h3 class="section-subtitle">質問</h3>
+        </div>
+        <div class="content qa-content">
+          <div class="qa-item">
+            <p class="content-title">Q1：女子大生以外でも参加できますか？</p>
+            <p class="content-description">はい。男子学生や高校生、大学院生の方の参加も歓迎しております。女子大生以外の方が参加される場合は、ご家庭に事前にご連絡し、承諾が取れたご家庭にマッチングしております。</p>
+          </div>
+          <div class="qa-item">
+            <p class="content-title">Q2：事前に準備しておくことはありますか？</p>
+            <p class="content-description">ご登録後、manmaから事前説明兼カウンセリングのご連絡をいたしますので、そちらにご参加いただいた際にご説明いたします。</p>
+          </div>
+          <div class="qa-item">
+            <p class="content-title">Q3：参加費はかかりますか？</p>
+            <p class="content-description">2家庭への家族留学をあなたのご希望をもとにマッチングする基本コースは1000円の参加費がかかります。日程に空きがある場合の追加募集は、500円で1家庭に参加することができます。もちろん、２回以上の参加も大歓迎です。一度説明会を行ったあとは、オンラインのみでご参加できます。</p>
+          </div>
+          <div class="qa-item">
+            <p class="content-title">Q4：東京都以外に在住でも、参加できますか？</p>
+            <p class="content-description">受け入れ家庭があればどこでも開催いたします。ご登録時に記載いただいた地区にて、マッチングが可能かmanmaからご連絡致します。受け入れ家庭があれば、オンライン決済とSkype説明会でご参加が可能です。</p>
+          </div>
+          <div class="qa-item">
+            <p class="content-title">Q5：家族留学は1回にかかる時間は？</p>
+            <p class="content-description">受け入れ家庭のお住まいの場所にもよりますが、オーソドックスなのは午前中から午後20時頃までです。ご希望によって、平日の夜のみなどの開催も可能です。カウンセリングの際にご相談ください。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section">
+        <div class="section-header">
+          <h2 class="section-title">TEAM</h2>
+          <h3 class="section-subtitle">manmaとは</h3>
+        </div>
+        <div class="manmateam-wrapper clearfix">
+          <div class="content manmateam-content">
+            <p class="content-title">新居 日南恵<span class="team-type">manma代表</span></p>
+            <hr>
+            <p class="content-description">manmaとは、"いまの女子大生の手で安心して母になれる社会をつくる"をコンセプトに活動する、女子大生チームです。学生が現役子育て家庭の日常に1日同行し、生き方のロールモデルの生活を体験する「家族留学」の取り組みを中心に、就職前の学生に仕事のキャリアだけでなく、その先の結婚や出産も含め、主体的に人生を設計する機会を届けています。仕事だけでなく結婚出産子育ても含めて前向きに考えてもらう企画です。</p>
+            <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">manmaスタッフ一覧</a>
+            <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">過去のプロジェクトはこちら</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <hr>
+        <p class="pull-right"><a href="http://getbootstrap.com/examples/carousel/#">トップページへ戻る</a></p>
+        <p>Copyright (C) 2014 - 2016 manma,All right reserved. <a href="">家族留学とは</a> · <a href="">家族留学レポート</a> · <a href="">メディア掲載情報</a> · <a href="">manmaとは</a> · <a href="">質問</a>
       </div>
+    </footer>
 
-  </div>
-</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-
-
-<!--footer-->
-<!-- <div id="footer">
-  <div id="footer_inline">
-    <ul>
-      <li><a href="http://manma.co/about/"><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
-      <li><a href="http://manma.co/member/"><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
-      <li><a href="http://manma.co/project/"><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
-      <li><a href="http://manma.co/category/news/"><strong>TEAM</strong><br><small>manmaとは</small></a></li>
-      <li><a href="http://manma.co/contact/"><strong>Q&A</strong><br><small>質問</small></a></li>
-      <li><a href="https://www.facebook.com/manma.co.jp?fref=ts">FACEBOOK</li>
-      <li><a href="https://twitter.com/manma_official">TWITTER</li>
-      <li><a href=""><strong>ENTRY</strong><br><small>申込みフォーム</small></a></li>
-    </ul>
-    <div id="copyright">Copyright (C) 2014 - 2015 manma,All right reserved.</div>
-  </div>
-</div> -->
-<!--/footer-->
-</div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>
-$(function(){
-　/********************
-　　smart menu
-　********************/
-　$('.smart_menu a').click(function(){
-　　$('.slide_menu').slideToggle();
-　　return false;
-　});
-　$(window).resize(function(){
-　　var win = $(window).width();
-　　var wid = 720;
-　　if(win > wid){
-　　　$('.slide_menu').show();
-　　} else {
-　　　$('.slide_menu').hide();
-　　}
-　});
-
-　/********************
-　　hover bottom
-　********************/
-　$('.reporter_image').hover(
-　　function(){
-　　　$('.reporter_desc', this).animate({
-　　　　top: "10px"
-　　　}, 250);
-　　},
-　　function(){
-　　　$('.reporter_desc', this).animate({
-　　　　top: "255px"
-　　　}, 250);
-　　}
-　);
-
-　/********************
-　　slideshow
-　********************/
-　var img = $('.slide_photo').children('img'),
-　num = img.length, //画像の数をカウント
-　count = 0, //現在の表示してる枚数目のカウント
-　interval = 5000;
-
-　img.eq(0).addClass('show'); //showクラスを付与
-　setTimeout(slide, interval); //slide関数をタイマーセット
-
-　function slide(){
-　　img.eq(count).removeClass('show'); //現在表示している画像からshowを削除
-　　count++;
-
-　　//カウンターが数よりも多ければリセット
-　　if(count >= num){
-　　　count = 0;
-　　}
-　　img.eq(count).addClass('show'); //次の画像にshowクラスを付与
-　　setTimeout(slide, interval); //タイマーセット
-　}
-
-　/********************
-　　tabmenu
-　********************/
-　$('.tab_menu li').click(function(){
-　　var num = $('.tab_menu li').index(this);
-　　$('.content_wrap').hide();
-　　$('.content_wrap').eq(num).fadeIn();
-　　$('.tab_menu li').removeClass('select');
-　　$(this).addClass('select');
-　});
-
-　/********************
-　　scroll_btn
-　********************/
-　var top_btn = $('.backtop_btn');
-　top_btn.hide(); //ボタンを非表示
-
-　//一定数スクロールしたらフェードイン、フェードアウトする
-　$(window).scroll(function(){
-　　if($(this).scrollTop() > 100){
-　　　top_btn.fadeIn();
-　　} else {
-　　　top_btn.fadeOut();
-　　}
-　});
-
-　//画像のオンオフ切り替え
-　top_btn.hover(
-　　function(){
-　　　$('.backtop_btn a img').attr('src', $('.backtop_btn a img').attr('src').replace('_off', '_on'));
-　　},
-　　function(){
-　　　$('.backtop_btn a img').attr('src', $('.backtop_btn a img').attr('src').replace('_on', '_off'));
-　　}
-　);
-
-　//クリックしたら一番上にスクロールする
-　top_btn.click(function(){
-　　$('body,html').animate({
-　　　scrollTop: 0
-　　}, 500);
-　　return false;
-　});
-
-　/********************
-　　オーバーレイ
-　********************/
-　$('.section_photo').hover(
-　　function(){
-　　　$(this).find('.section_photo_info').fadeIn();
-　　},
-　　function(){
-　　　$('.section_photo_info').fadeOut();
-　　}
-　);
-});
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>

@@ -1,0 +1,9 @@
+.flow-divider {
+  margin: 80px 0;
+}
+
+@media (min-width: 992px) {
+  .flow-heading {
+    margin-top: 120px;
+  }
+}

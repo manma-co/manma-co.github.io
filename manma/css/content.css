@@ -1,0 +1,34 @@
+.image-wrapper {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.about-wrapper {
+  background-color: #fffac5;
+}
+
+.media-image-wrapper {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.media-wrapper {
+  padding-bottom: 20px;
+}
+
+.research-wrapper {
+  background-color: #fffac5;
+}
+
+.voice-wrapper {
+  background-color: #fff;
+}
+
+.manmateam-wrapper {
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top bottom;
+  background-image: url(../image/member_niori.png);
+}

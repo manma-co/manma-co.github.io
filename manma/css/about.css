@@ -1,0 +1,10 @@
+#about {
+  background-color: #fffac5;
+}
+
+.about-image-wrapper {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(./image/item-family.png);
+}
