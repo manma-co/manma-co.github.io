@@ -8,3 +8,10 @@
   background-size: cover;
   background-image: url(./image/item-family.png);
 }
+
+@media only screen and (max-width: 640px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
