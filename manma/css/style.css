@@ -9,7 +9,7 @@ body {
   margin-bottom: 60px;
   padding-bottom: 40px;
   color: #5a5a5a;
-  font-family: "GillSans", "FOT-TsukuGoPro-E", sans-serif;
+  font-family: "Gill Sans", "FOT-TsukuGoPro-E", sans-serif;
 }
 
 #wrapper {
@@ -18,11 +18,11 @@ body {
 }
 
 @font-face {
-    font-family: 'GillSans';
+    font-family: 'Gill Sans';
     src: url('fonts/GillSans.ttc');
 
     font-family: 'FOT-TsukuGoPro-E';
-    src: url('file:///Users/pompom0c0/new_toppage/manma/fonts/FOT-TsukuGoPro-E.otf')
+    src: url('/fonts/FOT-TsukuGoPro-E.otf')
     font-weight: normal;
     font-style: normal;
 }

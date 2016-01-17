@@ -8,6 +8,10 @@
   background-color: #fffac5;
 }
 
+.flow-content {
+  margin-top: 50px;
+}
+
 .media-image-wrapper {
   padding: 10px 10px;
   text-align: center;
@@ -30,5 +34,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top bottom;
-  background-image: url(../image/member_niori.png);
+  /*background-image: url(../image/member_niori.png);*/
 }
