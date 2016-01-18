@@ -1,6 +1,9 @@
 .manmateam-content {
-  margin-top: 5%;
   margin-right: 10%;
   float: right;
   overflow: auto;
+}
+
+.content-img {
+  margin-bottom: 20px;
 }
