@@ -33,6 +33,10 @@ a:hover {
   color: #e798b6;
 }
 
+.btn {
+  margin: 5px;
+}
+
 .btn, .btn:hover {
   background-color: #e798b6;
   border-color: #e798b6;

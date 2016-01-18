@@ -6,8 +6,7 @@
   padding: 0 20%;
 }
 
-.team-member-content {
-  margin-top: 5%;
+.member-description-content {
   padding: 20px 0 10px;
 }
 
@@ -17,6 +16,11 @@
   margin-bottom: 0px;
   text-align: left;
   font-size: 1.5em;
+}
+
+.staff-name {
+  color: #e798b6;
+  text-align: center;
 }
 
 .team-type {
