@@ -15,12 +15,14 @@
   background-size: cover;
 }
 
+
 .carousel .item1 {
   background-image: url(../image/main_01.png);
 }
 
 .carousel .item2 {
   background-image: url(../image/main_02.png);
+
 }
 
 .carousel .item3 {
