@@ -44,13 +44,3 @@
     line-height: 1.4;
   }
 }
-
-@font-face {
-    font-family: 'GillSans';
-    src: url('fonts/GillSans.ttc');
-
-    font-family: 'FOT-TsukuGoPro-E';
-    src: url('./fonts/FOT-TsukuGoPro-E.otf') format('opentype')
-    font-weight: normal;
-    font-style: normal;
-}
