@@ -14,7 +14,7 @@ body {
   margin-bottom: 60px;
   padding-bottom: 40px;
   color: #5a5a5a;
-  font-family: "Gill Sans", "FOT-TsukuGoPro-E", sans-serif;
+  font-family: 'Gill Sans', 'FOT-TsukuGoPro-E', sans-serif;
 }
 
 #wrapper {
@@ -27,7 +27,7 @@ body {
     src: url('fonts/GillSans.ttc');
 
     font-family: 'FOT-TsukuGoPro-E';
-    src: url('/fonts/FOT-TsukuGoPro-E.otf')
+    src: local('FOT-TsukuGoPro-E.otf')
     font-weight: normal;
     font-style: normal;
 }

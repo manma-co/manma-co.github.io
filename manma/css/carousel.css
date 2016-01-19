@@ -1,15 +1,15 @@
 .carousel {
-  height: 500px;
+  height: 620px;
   margin-bottom: 60px;
 }
 
 .carousel-caption {
-  z-index: 10;
+  z-index: 0;
 }
 
 .carousel .item {
   margin-top: 5%;
-  height: 500px;
+  height: 620px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
