@@ -1,0 +1,86 @@
+.section_form{
+  margin-bottom: 50px;
+  line-height: 1;
+  text-align: center;
+}
+
+.form{
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.contact_name, .contact_mail, .contact_job, .contact_form_message {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.screen-reader-response{
+  display: none;
+}
+
+.wpcf7{
+  width: 600px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+  color: #000000;
+  width: 600px;
+  height: 15px;
+  padding: 10px 0px 10px 5px;
+}
+
+::-webkit-input-placeholder {
+  color: #737373;
+}
+:-moz-placeholder {
+  color: #737373;
+}
+
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wpcf7-form-control-wrap {
+  display: block;
+}
+
+.wpcf7-textarea {
+  width: 600px;
+  height: 200px;
+}
+
+.wpcf7 span.wpcf7-not-valid-tip {
+  display: block;
+  position: static;
+  top: 0;
+  left: 0;
+  border: none;
+  color: red;
+  margin: 10px 0px;
+}
+
+.wpcf7-form input[type=submit]{
+  width:150px;
+  height:30px;
+  border: 1px solid #5a4c55;
+  background-color: #FFFFFF;
+}
+
+.wpcf7-form input[type=submit]:hover{
+  background-color: #999999;
+  color: #FFFFFF;
+}
+
+.wpcf7-response-output{
+  margin-bottom: 30px;
+  background-color: #F19DBD;
+  color: #FFFFFF;
+  float: left;
+  width: 100%;
+  padding: 0px 5px;
+  line-height: 30px;
+}

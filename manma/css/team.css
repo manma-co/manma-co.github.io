@@ -1,16 +1,11 @@
 .team-image-wrapper {
-/*  background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-image: url(./image/member-bg.png);
-
-  {*/
-background-image:url(./image/member-bg.png);
-background-position:center top;
-background-repeat:no-repeat;
--moz-background-size:cover;
-background-size:cover;
-/*}*/
+  position: relative
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .manmateam-content {
@@ -21,4 +16,8 @@ background-size:cover;
 
 .content-img {
   margin-bottom: 20px;
+}
+
+.team-content-description {
+  position: absolute;
 }
