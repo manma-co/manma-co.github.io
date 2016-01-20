@@ -11,13 +11,16 @@
   padding: 0 8%;
 }
 
-.section .section-header {
+.section {
   margin-bottom: 30px;
   text-align: center;
+}
+
+.section-header {
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  background-image: url("./image/item-title.png");
+  background-size: contain;
+  background-image: url("../image/item-title.png");
 }
 
 .section .section-title {
