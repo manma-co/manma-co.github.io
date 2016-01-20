@@ -1,4 +1,4 @@
-.team-image-wrapper {
+/*.team-image-wrapper {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -20,4 +20,22 @@
 
 .team-content-description {
   position: absolute;
+}*/
+
+#team .manma-team-wrapper {
+  padding: 80px 60px;
+  background-image: url(../image/member-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team .manma-team-content {
+  right: 0;
+}
+
+@media (max-width: 568px) {
+  #team .manma-team-wrapper {
+    padding: 20px 10px;
+  }
 }
