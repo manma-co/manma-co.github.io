@@ -24,10 +24,10 @@ body {
 
 @font-face {
     font-family: 'Gill Sans';
-    src: url('fonts/GillSans.ttc');
+    src: url('../fonts/GillSans.ttc');
 
     font-family: 'FOT-TsukuGoPro-E';
-    src: local('FOT-TsukuGoPro-E.otf')
+    src: url('../fonts/FOT-TsukuGoPro-E.otf');
     font-weight: normal;
     font-style: normal;
 }
