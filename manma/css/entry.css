@@ -10,7 +10,6 @@
 }
 
 .contact_name, .contact_mail, .contact_job, .contact_form_message {
-  width: 600px;
   margin-bottom: 20px;
 }
 
@@ -30,22 +29,17 @@
 }
 
 .wpcf7{
-  width: 600px;
   margin: 0px auto;
   position: relative;
 }
 
 .wpcf7-text, .wpcf7-textarea {
   color: #000000;
-  width: 600px;
   height: 15px;
   padding: 10px 0px 10px 5px;
 }
 
-::-webkit-input-placeholder {
-  color: #737373;
-}
-:-moz-placeholder {
+::-webkit-input-placeholder, :-moz-placeholder {
   color: #737373;
 }
 
@@ -60,7 +54,6 @@
 }
 
 .wpcf7-textarea {
-  width: 600px;
   height: 200px;
 }
 
