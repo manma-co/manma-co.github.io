@@ -1,27 +1,3 @@
-/*.team-image-wrapper {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url(./image/member-bg.png);
-  position: relative
-  -moz-background-size: cover;
-  background-size: cover;
-}
-
-.manmateam-content {
-  margin-right: 10%;
-  float: right;
-  overflow: auto;
-}
-
-.content-img {
-  margin-bottom: 20px;
-}
-
-.team-content-description {
-  position: absolute;
-}*/
-
 #team .manma-team-wrapper {
   padding: 80px 60px;
   background-image: url(../image/member-bg.png);
