@@ -21,6 +21,10 @@
   padding-left: 0;
 }
 
+.navbar-header {
+  border-color: #fff;
+}
+
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
@@ -38,9 +42,15 @@
   padding: 0 10px;
 }
 
-a:visited {
-  color: #fff;
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
 }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #fff;
+  opacity: 0.7;
+}
+
 
 @media (min-width: 768px) {
   .navbar-wrapper {
