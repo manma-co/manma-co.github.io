@@ -1,9 +1,4 @@
 .qa-content {
   padding: 0 30%;
+  text-align: left;
 }
-/*
-@media (min-width: 768px) {
-  .qa-content {
-    padding: 15%;
-  }
-}*/
