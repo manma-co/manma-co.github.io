@@ -1,3 +1,7 @@
+#header {
+  padding: 0 20px;
+}
+
 .navbar {
   background-color: #e798b6;
   border-color: #e798b6;
@@ -25,8 +29,22 @@
   border-color: #fff;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+#menu {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 22px 10px;
   color: #fff;
+  cursor: pointer;
+}
+
+.nav-item:hover > .menu-text {
+  opacity: 0.8;
+}
+
+.entry-link {
+  padding: 0 !important;
 }
 
 .navbar-wrapper .navbar .container {
@@ -36,10 +54,6 @@
 .navbar-right {
   padding-right: 100px;
   text-align: center;
-}
-
-.navbar-right > li {
-  padding: 0 10px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -66,5 +80,16 @@
 @media (max-width: 768px) {
   #header_logo{
     width: 100px;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+
+  #navbar {
+  border-top: 1px solid rgba(255,255,255,0.6);
+  }
+
+  .nav-item {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
   }
 }

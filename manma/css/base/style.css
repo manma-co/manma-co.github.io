@@ -17,6 +17,11 @@ body {
   font-family: 'Gill Sans', 'FOT-TsukuGoPro-M', sans-serif;
 }
 
+body { font-size:140%; }
+@media (max-width: 568px) {
+  body { font-size:100%; }
+}
+
 #wrapper {
   position: relative;
   width: 100%;
@@ -24,10 +29,10 @@ body {
 
 @font-face {
     font-family: 'Gill Sans';
-    src: url('../fonts/GillSans.ttc');
+    src: url('../../fonts/GillSans.ttc');
 
     font-family: 'FOT-TsukuGoPro-M';
-    src: url('../fonts/FOT-TsukuGoPro-M.otf');
+    src: url('../../fonts/FOT-TsukuGoPro-M.otf');
     font-weight: normal;
     font-style: normal;
 }

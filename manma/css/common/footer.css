@@ -2,6 +2,10 @@ footer {
   background-color: #e798b6;
 }
 
+#footer {
+  padding: 0;
+}
+
 body > .container {
   padding: 60px 15px 0;
 }

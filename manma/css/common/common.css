@@ -1,0 +1,61 @@
+.title {
+  font-size: 3.0em;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 0px;
+}
+
+.comment {
+  font-size: 1.0em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size: 2.0em;
+  margin-top: 0px;
+}
+
+p.qa {
+  font-size: 0.93em;
+  margin-top: 20px;
+  color: #e798b6;
+}
+
+a {
+  color: #3a3a3a;
+}
+
+a:hover {
+  color: #e798b6;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn, .btn:hover {
+  background-color: #e798b6;
+  border-color: #e798b6;
+}
+
+ .btn:hover {
+  opacity: 0.7;
+}
+
+.img-circle {
+  width: 140px;
+  height: 140px;
+}
+
+hr {
+  border-color: #e798b6;
+  border-width: 2.5px;
+}
+
+#wrapper {
+  padding-top: 92px;
+}
