@@ -15,16 +15,13 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
   font-family: 'Gill Sans', 'FOT-TsukuGoPro-M', sans-serif;
-}
-
-body { font-size:140%; }
-@media (max-width: 568px) {
-  body { font-size:100%; }
+  font-size:140%;
 }
 
 #wrapper {
   position: relative;
   width: 100%;
+  padding-top: 92px;
 }
 
 @font-face {
@@ -35,4 +32,8 @@ body { font-size:140%; }
     src: url('../../fonts/FOT-TsukuGoPro-M.otf');
     font-weight: normal;
     font-style: normal;
+}
+
+@media (max-width: 568px) {
+  body { font-size:100%; }
 }
