@@ -20,27 +20,28 @@
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only"><a href="http://manma.co"><img id="header_logo" src="./image/logo.png" srcset="./image/logo.png 1x, ./image/logo@2x.png 2x" alt="manma"></a></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://manma.co"><img id="header_logo" src="./image/logo.png" srcset="./image/logo.png 1x, ./image/logo@2x.png 2x" alt="manma"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about"><strong>ABOUT</strong><br><small>家族留学とは</small></a></li>
-          <li><a href="#voice"><strong>REPORT</strong><br><small>家族留学レポート</small></a></li>
-          <li><a href="#media"><strong>MEDIA</strong><br><small>メディア掲載情報</small></a></li>
-          <li><a href="#team"><strong>TEAM</strong><br><small>manmaとは</small></a></li>
-          <li><a href="#qa"><strong>Q&A</strong><br><small>質問</small></a></li>
-          <li><a href=""><img src="./image/button-entry.png" srcset="./image/button-entry.png 1x, ./image/button-entry@2x.png 2x" alt="エントリーボタン&お申し込みボタン"></a></li>
-        </ul>
-      </div>
-    </nav>
+    <div id="wrapper">
+        <nav id="header" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only"><a href="http://manma.co"><img id="header_logo" src="./image/logo.png" srcset="./image/logo.png 1x, ./image/logo@2x.png 2x" alt="manma"></a></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://manma.co"><img id="header_logo" src="./image/logo.png" srcset="./image/logo.png 1x, ./image/logo@2x.png 2x" alt="manma"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul id="menu" class="nav navbar-nav navbar-right menu">
+            <li class="nav-item js-link" data-target="#about"><span class="menu-text"><strong>ABOUT</strong><br><small>家族留学とは</small></span></li>
+            <li class="nav-item js-link" data-target="#media"><span class="menu-text"><strong>MEDIA</strong><br><small>メディア掲載情報</small></span></li>
+            <li class="nav-item js-link" data-target="#voice"><span class="menu-text"><strong>REPORT</strong><br><small>家族留学レポート</small></span></li>
+            <li class="nav-item js-link" data-target="#qa"><span class="menu-text"><strong>Q&A</strong><br><small>質問</small></span></li>
+            <li class="nav-item js-link" data-target="#team"><span class="menu-text"><strong>TEAM</strong><br><small>manmaとは</small></span></li>
+            <li class="nav-item"><a class="entry-link" href=""><span class="menu-text"><img src="./image/button-entry.png" srcset="./image/button-entry.png 1x, ./image/button-entry@2x.png 2x" alt="エントリーボタン&お申し込みボタン"></a></span></li>
+            </ul>
+          </div>
+        </nav>
 
         <section id="team" class="section">
           <div class="section-header">
@@ -136,7 +137,7 @@
           <div class="section-header">
             <h3 class="section-subtitle">スタッフ紹介</h3>
           </div>
-          <div class="team-member-wrapper">
+          <div class="container team-member-wrapper">
             <div id="001" class="row member-description-content">
               <div class="team-col col-sm-6 content-img">
                 <img src="./image/member-001.png" srcset="image/member-001.png 1x, image/member-001@2x.png 2x" alt="新居日南恵">
