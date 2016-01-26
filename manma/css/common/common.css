@@ -1,13 +1,3 @@
-.title {
-  font-size: 3.0em;
-  margin-bottom: 0px;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-top: 0px;
-}
-
 .comment {
   font-size: 1.0em;
   margin-top: 20px;
@@ -54,8 +44,4 @@ a:hover {
 hr {
   border-color: #e798b6;
   border-width: 2.5px;
-}
-
-#wrapper {
-  padding-top: 92px;
 }
