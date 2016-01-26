@@ -1,2 +1,4 @@
 @import url(./common.css);
-@import url(./header.css);
+@import url(./common/header.css);
+
+@import url("./team/team.css");
