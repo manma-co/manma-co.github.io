@@ -35,7 +35,3 @@
  a:hover {
   opacity: 0.7;
 }
-
-@media (-web-min-device-pixcel-ratio: 2),(min-resolution: 2dppx) {
-
-}
