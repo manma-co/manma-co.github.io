@@ -1,7 +1,5 @@
 .section {
-  padding: 40px 0 10px;
-  margin-bottom: 30px;
-  text-align: center;
+  padding: 50px 0 40px;
 }
 
 .section .center-content {
@@ -14,40 +12,41 @@
 }
 
 .section-header {
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   background-image: url("../../image/item/item-title.png");
 }
 
-.section .section-title {
+.section-title {
   margin-bottom: 5px;
-  color: #e798b6;
+  color: #7d7d7d;
   font-size: 2.4em;
   font-weight: 700;
   letter-spacing: 0.05em;
 }
 
-.section .section-subtitle {
+.section-subtitle {
   margin-top: 0px;
   margin-bottom: 25px;
-  color: #e798b6;
+  color: #6c6d6d;
   font-size: 1em;
   font-weight: 400;
 }
 
-.section .content-title {
+.content-title {
   color: #e798b6;
   font-weight: 1.2em;
   font-weight: 400;
 }
 
-.section .content-subtitle {
+.content-subtitle {
   color: #e798b6;
   font-size: 2em;
   font-weight: 600;
 }
 
-.section .content-description {
+.content-description {
   text-align: left;
 }
