@@ -1,0 +1,28 @@
+.top-wrapper {
+  margin-top: 100px;
+}
+
+.merit-image-wrapper {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.merit-content {
+  padding: 0 5%;
+  height: 100px;
+  background-color: #faf7d0;
+}
+
+.merit-box {
+  height: 330px;
+  border: 1.5px solid #ddd;
+  box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+}
+
+.merit-comment {
+  background-color: #fff;
+  border-radius: 5%;
+  position: relative;
+  padding: 5%;
+}
