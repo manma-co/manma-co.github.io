@@ -1,0 +1,27 @@
+.team-section {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-image: url(../../image/index/team-bg.png);
+  background-position: center bottom 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team .team-wrapper {
+  height: 500px;
+  padding: 3% 20%;
+}
+
+#team .team-content {
+  right: 0;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+@media (max-width: 568px) {
+  #team .manma-team-wrapper {
+    padding: 20px 10px;
+  }
+}

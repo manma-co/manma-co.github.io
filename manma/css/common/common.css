@@ -8,6 +8,7 @@ a:hover {
 
 .btn {
   margin: 5px;
+  text-align: center;
 }
 
 .btn, .btn:hover {
