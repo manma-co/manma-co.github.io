@@ -13,10 +13,8 @@
 
 .section-header {
   text-align: center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  background-image: url("../../image/item/item-title.png");
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section-title {
