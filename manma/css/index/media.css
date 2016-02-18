@@ -26,10 +26,6 @@
   padding: 5px;
 }
 
-.member-wrapper {
-  background-image: url(../../image/member_niori.png);
-}
-
  a:hover {
   opacity: 0.7;
 }
