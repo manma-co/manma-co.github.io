@@ -24,6 +24,12 @@ a:hover {
   text-align: center;
 }
 
+.image-wrapper {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .img-circle {
   width: 140px;
   height: 140px;

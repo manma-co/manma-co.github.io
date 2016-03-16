@@ -2,11 +2,11 @@
   padding: 50px 0 40px;
 }
 
-.section .center-content {
+.section {
   text-align: center;
 }
 
-.section .center-content .content-item {
+.section {
   padding: 0 8%;
 }
 
@@ -32,14 +32,16 @@
   font-weight: 400;
 }
 
+.content-item {
+
+}
+
 .content-title {
-  color: #e798b6;
   font-weight: 1.2em;
   font-weight: 400;
 }
 
 .content-subtitle {
-  color: #e798b6;
   font-size: 2em;
   font-weight: 600;
 }
