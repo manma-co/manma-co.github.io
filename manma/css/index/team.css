@@ -16,6 +16,10 @@
   right: 0;
 }
 
+.project-title {
+  text-align: center;
+}
+
 @media (max-width: 568px) {
   #team .manma-team-wrapper {
     padding: 20px 10px;
