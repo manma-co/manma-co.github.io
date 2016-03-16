@@ -1,5 +1,4 @@
 @import url(./common.css);
-@import url(./common/header.css);
 
 @import url(./index/carousel.css);
 @import url(./index/entry.css);
@@ -7,7 +6,6 @@
 @import url(./index/flow.css);
 @import url(./index/media.css);
 @import url(./index/merit.css);
+@import url(./index/voice.css);
 @import url(./index/qa.css);
 @import url(./index/team.css);
-
-@import url(.common/footer.css);
