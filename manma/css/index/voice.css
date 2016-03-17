@@ -1,9 +1,9 @@
 #voice {
-  background-color: #fff1e4;
-  /*background-repeat: no-repeat;
-  background-position: center center;
+  /*background-color: #fff1e4;*/
+  background-repeat: no-repeat;
+  background-position: left center;
   background-size: cover;
-  background-image: url();*/
+  background-image: url(../../image/index/voice/voice-bg.jpg);
 }
 
 .voice-content {
