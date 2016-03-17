@@ -11,16 +11,16 @@
 
 
 .carousel .item1 {
-  background-image: url(../../image/index/main-01.png);
+  background-image: url(../../image/index/main/main-01.png);
 }
 
 .carousel .item2 {
-  background-image: url(../../image/index/main-02.png);
+  background-image: url(../../image/index/main/main-02.png);
 
 }
 
 .carousel .item3 {
-  background-image: url(../../image/index/main-03.png);
+  background-image: url(../../image/index/main/main-03.png);
 }
 
 .carousel-inner > .item > img {
@@ -46,12 +46,12 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .carousel .item1 {
-    background-image: url(../../image/index/main-01@2x.png);
+    background-image: url(../../image/index/main/main-01@2x.png);
   }
   .carousel .item2 {
-    background-image: url(../../image/index/main-02@2x.png);
+    background-image: url(../../image/index/main/main-02@2x.png);
   }
   .carousel .item3 {
-    background-image: url(../../image/index/main-03@2x.png);
+    background-image: url(../../image/index/main/main-03@2x.png);
   }
 }
