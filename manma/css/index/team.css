@@ -1,5 +1,5 @@
 #team .team-wrapper {
-  padding: 5% 20%;
+  padding: 0 20%;
 }
 
 #team .team-content {
@@ -8,14 +8,7 @@
 
 .project-title {
   text-align: center;
-}
-
-.team-image {
-  text-align: center;
-  background-image: url(../../image/index/team-bg.png);
-  background-position: center bottom 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-size: 1.2em;
 }
 
 .team-image-wrapper {
@@ -24,8 +17,9 @@
   height: auto;
 }
 
-@media (max-width: 568px) {
-  #team .manma-team-wrapper {
-    padding: 20px 10px;
+@media only screen and (max-width: 640px) {
+  .team-image-wrapper {
+    max-width: 100%;
+    height: auto;
   }
 }
