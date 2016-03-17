@@ -1,11 +1,10 @@
 .section {
-  padding: 0 8%;
+  padding: 3% 8%;
 }
 
 .section-header {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 5% 0 3% 0;
 }
 
 .section-title {
