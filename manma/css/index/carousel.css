@@ -55,3 +55,18 @@
     background-image: url(../../image/index/main/main-03@2x.png);
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .carousel .item1 {
+    background-image: url(../../image/index/main/main-mobile01.png);
+  }
+
+  .carousel .item2 {
+    background-image: url(../../image/index/main/main-mobile02.png);
+
+  }
+
+  .carousel .item3 {
+    background-image: url(../../image/index/main/main-mobile03.png);
+  }
+}
