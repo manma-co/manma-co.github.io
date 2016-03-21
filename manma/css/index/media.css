@@ -1,16 +1,14 @@
-.top-wrapper {
-  margin-top: 100px;
-}
-
 .media-content {
 }
 
+.media-wrapper {
+}
+
 .media-box {
-  width: 230px;
-  height: 330px;
   border: 1.5px solid #ddd;
   box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.2);
-  padding: 15px;
+  padding: 5%;
+  margin: 3% 0;
 }
 
 .media-image-wrapper {
@@ -30,15 +28,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .media-box {
-    width: 340px;
-    position: center;
-    margin-top: 20px;
-    padding-top: 20px;
-  }
-
-  .media-image-wrapper {
-    zoom: 2.0;
-    text-align: center;
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
