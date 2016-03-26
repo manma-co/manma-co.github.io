@@ -1,0 +1,26 @@
+footer {
+  background-color: #e798b6;
+  border-color: #e798b6;
+  opacity: 0.9;
+}
+
+#footer {
+  padding: 0;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}

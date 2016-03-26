@@ -1,0 +1,30 @@
+.entry-section {
+  background-color: #fff;
+}
+
+.entry-content {
+  padding: 1%;
+  text-align: center;
+}
+
+.entry-title {
+  padding-bottom: 1%;
+  color: #89e2b3;
+  font-size: 1.5em;
+}
+
+.entry-btn {
+  padding: 0 3%;
+  text-align: center;
+}
+
+.concept-image {
+  padding: 3%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .entry-btn {
+    padding: 2%;
+  }
+}

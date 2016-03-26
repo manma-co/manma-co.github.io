@@ -1,0 +1,25 @@
+#team .team-wrapper {
+  padding: 0 20%;
+}
+
+#team .team-content {
+  right: 0;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.team-image-wrapper {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .team-image-wrapper {
+    max-width: 100%;
+    height: auto;
+  }
+}
