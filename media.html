@@ -18,13 +18,11 @@
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 
     <link href="css/index.css" rel="stylesheet">
-    
+
   </head>
 
   <body>
     <div id="wrapper">
-
-      <div id="wrapper">
 
       <nav id="header" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
@@ -38,582 +36,277 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
           <ul id="menu" class="nav navbar-nav navbar-right menu">
+          <li class="nav-item js-link" data-target="#about"><span class="menu-text"><strong>ABOUT</strong><br><small>家族留学とは</small></span></li>
           <li class="nav-item js-link" data-target="#media"><span class="menu-text"><strong>MEDIA</strong><br><small>メディア掲載情報</small></span></li>
-          <!-- <li class="nav-item js-link" data-target="#voice"><span class="menu-text"><strong>REPORT</strong><br><small>家族留学レポート</small></span></li> -->
+          <li class="nav-item js-link" data-target="#voice"><span class="menu-text"><strong>REPORT</strong><br><small>家族留学レポート</small></span></li>
+          <li class="nav-item js-link" data-target="#qa"><span class="menu-text"><strong>Q&A</strong><br><small>質問</small></span></li>
           <li class="nav-item js-link" data-target="#team"><span class="menu-text"><strong>TEAM</strong><br><small>manmaとは</small></span></li>
           <li class="nav-item js-link" data-target="#team"><span class="menu-text"><strong>CONTACT</strong><br><small>問い合わせ</small></span></li>
           </ul>
         </div>
       </nav>
 
-      <section id="media" class="section">
+      <section id="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item item1 active">
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item item2">
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item item3">
+              <div class="carousel-caption"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="entry" class="entry-section">
+        <div class="entry-content">
+          <div class="entry-header">
+            <h2 class="entry-title">家族留学Entry</h2>
+          </div>
+          <a href="https://docs.google.com/forms/d/19qOYx9bkGRPeS4B7M6uaItPIHd_qagLoeMW2nYEVsWg/viewform"><img class="entry-btn" src="./image/button/button-student.png" srcset="./image/button/button-student.png 1x, ./image/button/button-student@2x.png 2x" alt="大学生はこちら"></a>
+          <a href="https://www.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1FxrmOWxfvFeUvOcZNnpzbADnGt3B6UsIGy47yY1lEMQ%2Fviewform&h=6AQFLm45N"><img class="entry-btn" src="./image/button/button-family.png" srcset="./image/button/button-family.png 1x, ./image/button/button-family@2x.png 2x" alt="ご家族の方はこちら"></a>
+          <br>
+          <img class="concept-image" src="./image/index/title/concept.png" srcset="./image/index/title/concept.png 1x, ./image/index/title/concept@2x.png 2x" alt="いまの女子大生の手で安心して母になれる社会をつくる">
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="about-content">
+          <img src="./image/index/about/about-mobile.png" srcset="./image/index/about/about-mobile.png 1x, ./image/index/about/about-mobile@2x.png 2x" alt="家族">
+        </div>
+      </section>
+
+      <section id="flow" class="section">
+        <div class="image-wrapper">
+          <img class="flow-image" src="image/index/flow/flow-mobile01.png" srcset="./image/index/flow/flow-mobile01.png 1x, ./image/index/flow/flow-mobile01@2x.png 2x" alt="01">
+          <hr>
+          <img src="image/index/flow/flow-mobile01.png" srcset="./image/index/flow/flow-mobile01.png 1x, ./image/index/flow/flow-mobile01@2x.png 2x" alt="01">
+          <hr>
+          <img src="image/index/flow/flow-mobile01.png" srcset="./image/index/flow/flow-mobile01.png 1x, ./image/index/flow/flow-mobile01@2x.png 2x" alt="01">
+        </div>
+      </section>
+
+      <section id="merit" class="merit-section">
+        <div class="container merit-content">
+          <div class="row merit-images">
+            <div class="merit-col col-lg-3 image-wrapper">
+              <img src="image/index/merit/merit-01.png" srcset="image/index/merit/merit-01.png 1x, image/index/merit/merit-01@2x.png 2x" alt="女性の生き方のロールモデルに出会える！">
+            </div>
+            <div class="merit-col col-lg-3 image-wrapper">
+              <img src="image/index/merit/merit-02.png" srcset="image/index/merit/merit-02.png 1x, image/index/merit/merit-02@2x.png 2x" alt="気軽に相談できる先輩と出会える！">
+            </div>
+            <div class="merit-col col-lg-3 image-wrapper">
+              <img src="image/index/merit/merit-03.png" srcset="image/index/merit/merit-03.png 1x, image/index/merit/merit-03@2x.png 2x" alt="自分の経験を次世代に伝えることができる！">
+            </div>
+            <div class="merit-col col-lg-3 image-wrapper">
+              <img src="image/index/merit/merit-04.png" srcset="image/index/merit/merit-04.png 1x, image/index/merit/merit-04@2x.png 2x" alt="子供に新しい出会いを届けられる！">
+            </div>
+          </div>
+          <div class="merit-text">
+            <p>＊「仕事」の面だけでなく、結婚や出産も含めた女性の生き方</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="media" class="section container">
+        <div class="section-header">
+          <img src="image/index/title/title-media.png" srcset="image/index/title/title-media.png 1x, image/index/title/title-media@2x.png 2x" alt="media">
+        </div>
+        <div class="row media-content">
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+                <a href="http://dual.nikkei.co.jp/article.aspx?id=7474" target="_blank"><img src="image/media/media-10.png" srcset="image/media/media-10.png 1x, image/media/media-10@2x.png 2x" alt="日経DUAL"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.11.26<span class="media-type">ネット記事</span></h5>
+              <p class="content-description">【日経DUAL】イマドキの女子大生の問題意識、結婚観とは？</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+              <a href="http://www.nhk.or.jp/shutoken/net/report/20151102.html" target="_blank"><img src="./image/media/media-13.png" srcset="image/media/media-13.png 1x, image/media/media-13@2x.png 2x" alt="NHK首都圏ネットワーク"></a>
+              </div>
+              <hr>
+              <h5 class="media-title">2015.11.02<span class="media-type">テレビ特集</span></h5>
+              <p class="content-description">【NHK首都圏ネットワーク】子育て家庭の本音聞く“家庭留学”</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+              <a href="http://www.mofa.go.jp/mofaj/fp/hr_ha/page22_001825.html" target="_blank"><img src="image/media/media-21.png" srcset="image/media/media-21.png 1x, image/media/media-21@2x.png 2x" alt="外務省"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.08.25-26<span class="media-type">イベント登壇</span></h5>
+              <p class="content-description">【外務省】女性が輝く社会に向けた国際シンポジウム(WAW!2015)</p>
+            </div>
+          </div>
+          <div class="media-col col-lg-3 media-wrapper">
+            <div class="media-box">
+              <div class="media-image-wrapper">
+              <a href="http://www.ntv.co.jp/zero/human/2015/05/3.html" target="_blank"><img src="image/media/media-32.png" srcset="image/media/media-32.png 1x, image/media/media-32@2x.png 2x" alt="日本テレビ NEWSZERO"></a>
+              </div>
+              <hr>
+              <h5 class="content-title">2015.05.14<span class="media-type">テレビ特集</span></h5>
+              <p class="content-description">【日本テレビ NEWSZERO】ZERO HUMAN</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <img src="./image/button/button-media.png" srcset="./image/button/button-media.png 1x, ./image/button/button-media@2x.png 2x" alt="メディア掲載一覧はこちら">
+        </div>
+      </section>
+
+      <section id="voice" class="section">
+        <div class="section-header">
+          <img src="image/index/title/title-report.png" srcset="image/index/title/title-report.png 1x, image/index/title/title-report@2x.png 2x" alt="report">
+        </div>
+        <div class="voice-content">
+          <div class="row">
+            <div class="voice-col col-sm-6">
+              <div class="image-wrapper">
+                <img class="img-circle" src="image/index/voice/commentetor-student.png" alt="矢部さん">
+              </div>
+              <div class="voice-commentator">
+                <p class="voice-profile">大学4年生 家族留学参加者</p>
+                <p class="voice-name">矢部 陽子さん</p>
+              </div>
+              <div class="voice-comment">
+                <p class="voice-title">子供が生まれるなど、状況が変わったら働き方も変えていいんだと思えるようになりました。</p>
+                <hr>
+                <p class="voice-description">私が家族留学を通して変化した点は、状況が変わったら働き方も変えて良いと思えるようになったことです。転職したり、辞職したりということは無責任なのではないかという悩みもありましたが、ご夫婦や他の留学生に相談することができ、勇気づけられました。いろいろと考えていただいた子育てに関する具体的なアイディアは将来必ず役に立つと思えました。また、「こどもって可愛いな」と実感したり、「総合職勤務でも子育てはなんとかなるんだ」と知ったりすることができて良かったです。本当にこどもって素晴らしいです。</p>
+              </div>
+            </div>
+            <div class="voice-col col-sm-6">
+              <div class="image-wrapper">
+                <img class="img-circle" src="image/index/voice/commentetor-family.png" alt="福家さん">
+              </div>
+              <div class="voice-commentator">
+                <p class="voice-profile">受け入れ先 ご家族さま</p>
+                <p class="voice-name">福家 泰子さん</p>
+              </div>
+              <div class="voice-comment">
+                <p class="voice-title">いろんな人と出会うことは、いろんな価値観を見ること。人生を豊かにしてくれるはず。</p>
+                <hr>
+                <p class="voice-description">バギーやだっこ、ミルクやおむつ替えにお風呂まで、参加してくれた子たちがみんな積極的にやりたい！と言ってくれて楽しかったです。そして私たちも人生まだまだあって、語れるような年齢でもないのですが、いろんな人と出会うことはいろんな価値観を見ることができて、人生を豊かにしてくれるはず。私もいろんな価値観の人と出会いたいと思っていて、だから普段接点のない女子大生や女子高生と出会えるこの企画って素晴らしいな、と思ったんです。受け入れる家庭にも、参加する子たちにも、大切なものを与えてくれるのが家族留学だと思います。</p>
+              </div>
+            </div>
+          </div>
+          <div class="btn-wrapper">
+            <img src="./image/button/button-report.png" srcset="./image/button/button-report.png 1x, ./image/button/button-report@2x.png 2x" alt="家族留学レポートはこちら">
+          </div>
+        </div>
+        <div class="row performance-content">
+          <div class="performance-col col-sm-6">
+            <div class="image-wrapper">
+              <img src="./image/index/voice/voice_student.png" srcset="./image/index/voice/voice_student.png 1x, ./image/index/voice/voice_student@2x.png 2x" alt="学生登録数">
+            </div>
+          </div>
+          <div class="performance-col col-sm-6">
+            <div class="image-wrapper">
+              <img src="./image/index/voice/voice_family.png" srcset="./image/index/voice/voice_family.png 1x, ./image/index/voice/voice_family@2x.png 2x" alt="ママさん登録数">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="qa" class="section">
+        <div class="section-header">
+          <img src="image/index/title/title-qa.png" srcset="image/index/title/title-qa.png 1x, image/index/title/title-qa@2x.png 2x" alt="qa">
+        </div>
+        <!-- <img src="image/index/qa/qa-bg-top.png" alt=""> -->
+        <div class="qa-content">
+          <div class="qa-wrapper">
+            <div class="row qa-items">
+              <div class="qa-col col-sm-6 qa-item">
+                <p class="qa-title">Q：女子大生以外でも参加できますか？</p>
+                <p class="qa-description">はい。男子学生や高校生、大学院生の方の参加も歓迎しております。女子大生以外の方が参加される場合は、ご家庭に事前にご連絡し、承諾が取れたご家庭にマッチングしております。</p>
+              </div>
+              <div class="qa-col col-sm-6 qa-item">
+                <p class="qa-title">Q：事前に準備しておくことはありますか？</p>
+                <p class="qa-description">ご登録後、manmaから事前説明兼カウンセリングのご連絡をいたしますので、そちらにご参加いただいた際にご説明いたします。</p>
+              </div>
+            </div>
+            <div class="row qa-items">
+              <div class="qa-col col-sm-6 qa-item">
+                <p class="qa-title">Q：参加費はかかりますか？</p>
+                <p class="qa-description">一度面談を行った後は、オンラインのみの対応でご参加いただけます。</p>
+              </div>
+              <div class="qa-col col-sm-6 qa-item">
+                <p class="qa-title">Q：東京都以外に在住でも、参加できますか？</p>
+                <p class="qa-description">受け入れ家庭があればどこでも開催いたします。ご登録時に記載いただいた地区にて、マッチングが可能かmanmaからご連絡致します。受け入れ家庭があれば、オンライン決済とSkype説明会でご参加が可能です。</p>
+              </div>
+            </div>
+            <div class="row qa-items">
+              <div class="qa-col col-sm-6 qa-item">
+                <p class="qa-title">Q：家族留学は1回にかかる時間は？</p>
+                <p class="qa-description">受け入れ家庭のお住まいの場所にもよりますが、オーソドックスなのは午前中から午後20時頃までです。ご希望によって、平日の夜のみなどの開催も可能です。カウンセリングの際にご相談ください。</p>
+              </div>
+              <div class="qa-col col-sm-6 qa-item">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="image/index/qa/qa-bg-bottom.png" alt=""> -->
+      </section>
+
+      <section id="team" class="team-section">
           <div class="section-header">
-            <h2 class="section-title">MEDIA</h2>
-            <h3 class="section-subtitle">メディア掲載情報</h3>
+            <img src="image/index/title/title-team.png" srcset="image/index/title/title-team.png 1x, image/index/title/title-team@2x.png 2x" alt="team">
           </div>
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="https://www.facebook.com/%E3%83%A9%E3%82%A4%E3%83%95%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E9%81%93%E5%A0%B4%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88-974124545999386/" target="_blank"><img src="./image/media/media-01.png" srcset="image/media/media-01.png 1x, image/media/media-01@2x.png 2x" alt="ライフキャリア道場"></a>
-                </div>
-                <hr>
-                <h5 class="media-title">2015.12.19<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【ライフキャリア道場】ライフキャリア道場＆サミットに登壇しました。</p>
+          <div class="content">
+            <div class="team-wrapper">
+              <div class="team-content">
+                <p class="team-content-description">manmaとは、”いまの女子大生の手で安心して母になれる社会をつくる”をコンセプトに活動する、女子大生チームです。学生が現役子育て家庭の日常に１日同行し、生き方のロールモデルの生活を体験する「家族留学」の取り組みを中心に、就職前の学生に仕事のキャリアだけでなく、その先の結婚や出産も含め、主体的に人生を設計する機会を届けています。</p>
               </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="https://conobie.jp/article/4746" target="_blank"><img src="image/media/media-02.png" srcset="image/media/media-02.png 1x, image/media/media-02@2x.png 2x" alt="conobie"></a>
+              <div class="row project-content">
+                <h4 class="project-title">--- 過去のプロジェクトはこちら ---</h4>
+                <div class="col-sm-3">
+                  <div class="image-wrapper">
+                    <img class="img-circle" src="http://manma.co/wp-content/uploads/2015/05/5d2c31bfeb95844c222e961420b1a0ed.jpg" alt="女子大生100人に聞いた">
+                  </div>
+                  <h5 class="project-title">女子大生100人に聞いた</h5>
                 </div>
-                <hr>
-                <h5 class="content-title">2015.12.18<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【conobie】女子大生が子育て家庭に留学！？安心して母になる未来を作るプロジェクトに参加しました！</p>
+                <div class="col-sm-3">
+                  <div class="image-wrapper">
+                    <img class="img-circle" src="http://manma.co/wp-content/uploads/2015/05/26075b475f53f6b9430fe5f17d41fe6b-1024x684.jpg" alt="働くママインタビュー">
+                  </div>
+                  <h5 class="project-title">働くママインタビュー</h5>
+                </div>
+                <div class="col-sm-3">
+                  <div class="image-wrapper">
+                    <img class="img-circle" src="http://manma.co/wp-content/uploads/2015/05/7b4f1fbfbe2b699145948071a5584c5d.jpg" alt="ライフキャリアワークショップ">
+                  </div>
+                  <h5 class="project-title">ライフキャリアワークショップ</h5>
+                </div>
+                <div class="col-sm-3">
+                  <div class="image-wrapper">
+                    <img class="img-circle" src="http://manma.co/wp-content/uploads/2015/05/4724ddbc1cc84d2ec006b49198499fbc.jpg" alt="託児インターン">
+                  </div>
+                  <h5 class="project-title">託児インターン</h5>
+                </div>
               </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="https://www.facebook.com/events/1683831798499435/" target="_blank"><img src="image/media/media-03.png" srcset="image/media/media-03.png 1x, image/media/media-03@2x.png 2x" alt="グローバルアントレプレナーシップウィーク2015"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.12.17<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【グローバルアントレプレナーシップウィーク2015】パネルディスカッションに登壇しました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/media-04.png" srcset="image/media/media-04.png 1x, image/media/media-04@2x.png 2x" alt="長野日報">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.12.06<span class="media-type">新聞掲載</span></h5>
-                <p class="content-description">【長野日報】長野版家族留学の様子が掲載されました。</p>
+              <div class="btn-wrapper">
+                <a href=""><img src="./image/button/button-team.png" srcset="./image/button/button-team.png 1x, ./image/button/button-team@2x.png 2x" alt="manmaスタッフ一覧"></a>
               </div>
             </div>
           </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://dual.nikkei.co.jp/article.aspx?id=7494" target="_blank"><img src="./image/media/media-05.png" srcset="image/media/media-05.png 1x, image/media/media-05@2x.png 2x" alt="日経DUAL"></a>
-                </div>
-                <hr>
-                <h5 class="media-title">2015.12.03<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【日経DUAL】manma 女子大生が結婚出産に前向きな社会に(下)</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="長野朝日放送">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.12.01<span class="media-type">テレビ特集</span></h5>
-                <p class="content-description">【長野朝日放送】長野版家族留学の様子が放送されました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="いなてれびじょん">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.12.01<span class="media-type">テレビ特集</span></h5>
-                <p class="content-description">【いなてれびじょん】長野版家族留学の様子が放送されました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="信濃毎日新聞">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.12.01<span class="media-type">新聞掲載</span></h5>
-                <p class="content-description">【信濃毎日新聞】家族留学が紹介されました。</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="./image/media/media-09.png" srcset="image/media/media-09.png 1x, image/media/media-09@2x.png 2x" alt="ソーシャル・シェアリングWG">
-                </div>
-                <hr>
-                <h5 class="media-title">2015.11.29<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【ソーシャル・シェアリングWG】大日本印刷・東京急行電鉄・Polaris・AsMama様と一緒に登壇しました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://dual.nikkei.co.jp/article.aspx?id=7474" target="_blank"><img src="image/media/media-10.png" srcset="image/media/media-10.png 1x, image/media/media-10@2x.png 2x" alt="日経DUAL"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.26<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【日経DUAL】子育て中の家庭を訪問する「家族留学」を展開。イマドキの女子大生の問題意識、結婚観とは?</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="https://www.facebook.com/joshimirai/" target="_blank"><img src="image/media/media-11.png" srcset="image/media/media-11.png 1x, image/media/media-11@2x.png 2x" alt="女子未来大学"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.22<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【女子未来大学】1周年記念イベントに登壇しました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/media-12.png" srcset="image/media/media-12.png 1x, image/media/media-12@2x.png 2x" alt="日経新聞">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.02<span class="media-type">新聞掲載</span></h5>
-                <p class="content-description">【日経新聞】働く・育児「こうなんだ」</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.nhk.or.jp/shutoken/net/report/20151102.html" target="_blank"><img src="./image/media/media-13.png" srcset="image/media/media-13.png 1x, image/media/media-13@2x.png 2x" alt="NHK首都圏ネットワーク"></a>
-                </div>
-                <hr>
-                <h5 class="media-title">2015.11.02<span class="media-type">テレビ特集</span></h5>
-                <p class="content-description">【NHK首都圏ネットワーク】子育て家庭の本音聞く“家庭留学”</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://www.nikkeibp.co.jp/l-clock/atcl08/01/index.html" target="_blank"><img src="image/media/media-14.png" srcset="image/media/media-14.png 1x, image/media/media-14@2x.png 2x" alt="日経BP"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.01<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【日経BP】自分の家族以外のモデルを知る体験は有益です。(後編)</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/media-15.png" srcset="image/media/media-15.png 1x, image/media/media-15@2x.png 2x" alt="日経WOMAN 11月号">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.01<span class="media-type">雑誌</span></h5>
-                <p class="content-description">【日経WOMAN 11月号】manmaの特集が掲載されました。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="https://www.facebook.com/thinkpearl/" target="_blank"><img src="image/media/media-16.png" srcset="image/media/media-16.png 1x, image/media/media-16@2x.png 2x" alt="タニタ賞受賞"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.01<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【タニタ賞受賞】THINK PEARLTHINK PEARLAWARD2015に登壇しました。</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www6.nhk.or.jp/special/detail/index.html?aid=20151024" target="_blank"><img src="./image/media/media-17.png" srcset="image/media/media-17.png 1x, image/media/media-17@2x.png 2x" alt="NHKスペシャル"></a>
-                </div>
-                <hr>
-                <h5 class="media-title">2015.10.24<span class="media-type">テレビ特集</span></h5>
-                <p class="content-description">【NHKスペシャル】私たちのこれから＃雇用激変 ～あなたの暮らしを守るには～</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://saisaikenbi.com/archives/hinae_niori/" target="_blank"><img src="image/media/media-18.png" srcset="image/media/media-18.png 1x, image/media/media-18@2x.png 2x" alt="彩才兼備"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.10.01<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【彩才兼備】キャンパス美女インタビュー</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://www.nikkeibp.co.jp/l-clock/atcl07/01/index.html" target="_blank"><img src="image/media/media-19.png" srcset="image/media/media-19.png 1x, image/media/media-19@2x.png 2x" alt="日経WOMAN 11月号"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.11.01<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【日経BP】キャリアはもちろん"家族"の夢も当たり前に描きたい(前編)</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://overmillionchallenge.com/" target="_blank"><img src="image/media/media-20.png" srcset="image/media/media-20.png 1x, image/media/media-20@2x.png 2x" alt="ベネッセコーポレーション"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.09.22<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【ベネッセコーポレーション】Over Miliion Challenge 一次選考</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.mofa.go.jp/mofaj/fp/hr_ha/page22_001825.html" target="_blank"><img src="image/media/media-21.png" srcset="image/media/media-21.png 1x, image/media/media-21@2x.png 2x" alt="外務省"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.08.25-26<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【外務省】女性が輝く社会に向けた国際シンポジウム(WAW!2015)</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="サイタメ！">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.08.05<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【みんなの経済新聞ネットワーク】浦和で埼玉の中高生向け学生イベント「サイタメ！」「女性のキャリア」テーマに</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://dual.nikkei.co.jp/article.aspx?id=5683" target="_blank"><img src="image/media/media-23.png" srcset="image/media/media-23.png 1x, image/media/media-23@2x.png 2x" alt="日経DUAL"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.08.05<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【日経DUAL】未来のママたちが、安心して子どもを産める社会を目指して</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://lineblog.me/yasudamika/search?q=manma" target="_blank"><img src="image/media/media-24.png" srcset="image/media/media-24.png 1x, image/media/media-24@2x.png 2x" alt="ホリプロ保育園"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.08.05<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【ホリプロ保育園】女子大生チーム「manma」がご来園！</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/media-25.png" srcset="image/media/media-25.png 1x, image/media/media-25@2x.png 2x" alt="読売新聞">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.08.02<span class="media-type">新聞掲載</span></h5>
-                <p class="content-description">【読売新聞】仕事との両立 就職前に学ぶ</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="キッカケプロジェクト">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.07.25<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【キッカケプロジェクト】</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="https://www.youtube.com/watch?v=gZD7cfB4-2Q" target="_blank"><img src="image/media/media-27.png" srcset="image/media/media-27.png 1x, image/media/media-27@2x.png 2x" alt="スマイルママラジオ"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.07.08<span class="media-type">ラジオ</span></h5>
-                <p class="content-description">【スマイルママラジオ】『Bright★Delight』</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="女子大生のための“家族留学”プロジェクト">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.06.13<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【女子大生のための“家族留学”プロジェクト】in関西 スタートイベント</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://garagelabo.com/archives/4845" target="_blank"><img src="image/media/media-29.png" srcset="image/media/media-29.png 1x, image/media/media-29@2x.png 2x" alt="GARAGE LABO"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.06.10<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【GARAGE LABO】「いまの女子大生が安心して母になれる社会をつくる」manma代表 新居日南恵</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="キャリア教育授業">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.06.01<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【キャリア教育授業】上伊那農業高校2年生の前でスピーチ</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.joqr.co.jp/saru/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="文化放送"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.05.29<span class="media-type">ラジオ</span></h5>
-                <p class="content-description">【文化放送】「飛べ！サルバドール」</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.ntv.co.jp/zero/human/2015/05/3.html" target="_blank"><img src="image/media/media-32.png" srcset="image/media/media-32.png 1x, image/media/media-32@2x.png 2x" alt="日本テレビ NEWSZERO"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.05.14<span class="media-type">テレビ特集</span></h5>
-                <p class="content-description">【日本テレビ NEWSZERO】ZERO HUMAN</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.j-wave.co.jp/original/wondervision/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="J-WAVE"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.05.10<span class="media-type">ラジオ</span></h5>
-                <p class="content-description">【J-WAVE】WONDER VISION</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://www.kbs-kyoto.co.jp/radio/hokahoka/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="KBSラジオ"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.04.22<span class="media-type">ラジオ</span></h5>
-                <p class="content-description">【KBSラジオ】笑福亭晃瓶のほっかほかラジオ</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/media-35.png" srcset="image/media/media-35.png 1x, image/media/media-35@2x.png 2x" alt="東京新聞">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.04.15<span class="media-type">新聞掲載</span></h5>
-                <p class="content-description">【東京新聞/新潟日報/岐阜新聞/中日新聞/北日本新聞他】「ひと」コーナーにて掲載。</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/media-36.png" srcset="image/media/media-36.png 1x, image/media/media-36@2x.png 2x" alt="JMF">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.03.15<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【第3回JMF】イベントにて登壇しました。</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="AIESEC JAPAN">
-                </div>
-                <hr>
-                <h5 class="content-title">2015.03<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【AIESEC JAPAN】</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://bylines.news.yahoo.co.jp/ogawatamaka/20150130-00042646/" target="_blank"><img src="image/media/media-37.png" srcset="image/media/media-37.png 1x, image/media/media-37@2x.png 2x" alt="Yahoo!JAPAN NEWS"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2015.01.30<span class="media-type">ネット記事</span></h5>
-                <p class="content-description">【Yahoo!JAPAN NEWS】「10社の会社訪問より1回の家庭訪問」女子大生が提案するこれからの子育て</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://twdw2014112501.peatix.com/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="非営利型株式会社Polaris"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.11.25<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【非営利型株式会社Polaris】TWDW 「U35女子の未来」</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="https://www.facebook.com/events/997810993567548/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="一般財団法人ベビー＆バースフレンドリー財団"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.11.03<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【一般財団法人ベビー＆バースフレンドリー財団】出産と仕事フォーラム</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="https://www.facebook.com/100.tsuduku?pnref=story" target="_blank"><img src="image/media/media-49.png" srcset="image/media/media-49.png 1x, image/media/media-49@2x.png 2x" alt="100年続く学生団体に必要な7つのこと"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.10<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【100年続く学生団体に必要な7つのこと】</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://blog.livedoor.jp/photonedphoton/archives/4861351.html" target="_blank"><img src="image/media/media-48.png" srcset="image/media/media-48.png 1x, image/media/media-48@2x.png 2x" alt="Cebu Dialog Night"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.09<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【Cebu Dialog Night】「二十歳の自分に伝えたいこと」ゲスト</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://public-curations.com/2014/06/721/" target="_blank"><img src="image/media/media-42.png" srcset="image/media/media-42.png 1x, image/media/media-42@2x.png 2x" alt="パブリックトーク"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.06.26<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【パブリックトーク】パブリックキュレーションズ</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://article.go2senkyo.com/2014/06/27/5846.html" target="_blank"><img src="image/media/media-41.png" srcset="image/media/media-41.png 1x, image/media/media-41@2x.png 2x" alt="Change.org"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.06.26<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【Change.org】『9万人のクリック、その先は？ 東京都議会セクハラ野次問題と今後の対策について、考えよう』</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="http://kosodatekitchen.com/page4.html" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="子育てkitchen"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.07<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【子育てkitchen】子どものやりたい！を見守る</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.city.fujiyoshida.yamanashi.jp/forms/info/info.aspx?info_id=5436" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="エンパブリック"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.07<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【エンパブリック】日本一、笑顔に囲まれて子どもが育つ富士吉田をつくるには？</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://twdw2014112501.peatix.com/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="わかりやすいプロジェクト"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.09.11<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【わかりやすいプロジェクト】</p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="https://www.facebook.com/events/414765585298265/permalink/416959548412202/" target="_blank"><img src="image/media/no-image.png" srcset="image/media/no-image.png 1x, image/media/no-image@2x.png 2x" alt="未来を変えるデザイン展"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2014.11.03<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【未来を変えるデザイン展】「未来の主役は誰なのか？」を本気で考える〜時代をリードする10代が語るこれからの未来、大人へのメッセージ</p>
-              </div>
-            </div>
-            </div>
-          <!-- </div> -->
-
-          <div class="row media-content">
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                <a href="http://www.katariba.net/news/2012/05/11099/" target="_blank"><img src="image/no-image.png" srcset="image/no-image.png 1x, image/no-image@2x.png 2x" alt="NPO法人カタリバ"></a>
-                </div>
-                <hr>
-                <h5 class="content-title">2012.06.05<span class="media-type">イベント登壇</span></h5>
-                <p class="content-description">【NPO法人カタリバ】カタリバ大学第41講「彼女たちのAO入試」</p>
-              </div>
-            </div>
-            <!-- <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="" target="_blank"><img src="image/media-.png" srcset="image/media-.png 1x, image/media-@2x.png 2x" alt=""></a>
-                </div>
-                <hr>
-                <h5 class="content-title"><span class="media-type"></span></h5>
-                <p class="content-description"></p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="" target="_blank"><img src="image/media-.png" srcset="image/media-.png 1x, image/media-@2x.png 2x" alt=""></a>
-                </div>
-                <hr>
-                <h5 class="content-title"><span class="media-type"></span></h5>
-                <p class="content-description"></p>
-              </div>
-            </div>
-            <div class="media-col col-lg-3 media-wrapper">
-              <div class="media-box">
-                <div class="media-image-wrapper">
-                  <a href="" target="_blank"><img src="image/media-.png" srcset="image/media-.png 1x, image/media-@2x.png 2x" alt=""></a>
-                </div>
-                <hr>
-                <h5 class="content-title"><span class="media-type"></span></h5>
-                <p class="content-description"></p>
-              </div>
-            </div> -->
-          </div>
-
-        </section>
-
-      </div><!-- /.container -->
+          <img class="team-image-wrapper" src="./image/index/team/team-bg.png" srcset="./image/index/team/team-bg.png 1x, ./image/index/team/team-bg@2x.png 2x" alt="">
+          <!-- <div class="team-image"></div> -->
+      </section>
+    </div>
 
       <footer>
         <div class="container">
