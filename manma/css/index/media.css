@@ -11,8 +11,10 @@
   margin: 3% 0;
 }
 
-.media-image-wrapper {
+.media-image-wrapper img {
+  width: 180px;
   height: auto;
+  text-align: center;
 }
 
 .media-type {
