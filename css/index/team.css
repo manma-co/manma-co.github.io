@@ -6,6 +6,11 @@
   right: 0;
 }
 
+.team-header {
+  text-align: center;
+  padding: 5% 10% 3% 10%;
+}
+
 .project-title {
   text-align: center;
   font-size: 1.2em;
