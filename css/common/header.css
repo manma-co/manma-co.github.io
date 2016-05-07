@@ -11,6 +11,14 @@
 #header_logo{
   width: 200px;
   padding: 8px 0;
+  float: left;
+}
+
+.header-concept {
+  font-size: 0.8em;
+  padding: 8px 20px;
+  color: #fff;
+  float: left;
 }
 
 .navbar-wrapper {
