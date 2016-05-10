@@ -15,7 +15,6 @@
 }
 
 .header-concept {
-  font-size: 0.8em;
   padding: 8px 20px;
   color: #fff;
   float: left;
@@ -76,6 +75,10 @@
 
 
 @media (min-width: 768px) {
+  #header {
+    padding: 0 10px;
+  }
+
   .navbar-wrapper {
     margin-top: 20px;
   }
@@ -84,9 +87,27 @@
     padding-right: 0;
     padding-left: 0;
   }
+
+  .header-concept {
+    font-size: 0.3em;
+    line-height: 0.9em;
+    padding: 4% 8px;
+  }
 }
 
+@media screen and (min-width: 980px) {
+  .header-concept {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+}
+
+
 @media (max-width: 768px) {
+  #header {
+    padding: 0 10px;
+  }
+
   #header_logo{
     width: 100px;
   }
@@ -101,4 +122,11 @@
   .nav-item {
     border-bottom: 1px solid rgba(255,255,255,0.4);
   }
+
+  .header-concept {
+    font-size: 0.3em;
+    line-height: 0.9em;
+    padding: 4% 8px;
+  }
+
 }
