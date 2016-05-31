@@ -2,16 +2,22 @@
   text-align: center;
 }
 
-.recruit-images {
-  margin: 0 10%;
-}
-
 .recruit-title {
   font-size: 1.6em;
   font-weight: 500;
-  margin: 0 20px 0 0;
+  margin: 10px 0;
 }
 
 .image-wrapper img {
   margin: 10px 0;
+}
+
+.recruit-section {
+  text-align: center;
+  padding: 5% 10% 3% 10%;
+}
+
+.recruit-list {
+  margin: 10px;
+  /*list-style: none;*/
 }
