@@ -1,0 +1,50 @@
+.section {
+  padding: 3% 8%;
+}
+
+.section-header {
+  text-align: center;
+  padding: 5% 0 3% 0;
+}
+
+.section-title {
+  margin-bottom: 5px;
+  color: #7d7d7d;
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.section-subtitle {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #6c6d6d;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.content-item {
+
+}
+
+.content-title {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.content-subtitle {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.content-description {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-title {
+    padding: 10% 0;
+    height: auto;
+    text-align: center;
+  }
+}
