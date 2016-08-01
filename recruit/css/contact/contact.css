@@ -1,0 +1,51 @@
+.section_form{
+  margin-bottom: 50px;
+  line-height: 1;
+  text-align: center;
+}
+
+.contact-form-inner {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.form-component {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 1em;
+  font-weight: 400;
+  border: 1px solid #e798b6;
+}
+
+.form-component:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #e798b6;
+}
+
+.textarea {
+  height: 240px;
+}
+
+.submit-group {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 10px 40px;
+  font-size: 1em;
+  font-weight: 600;
+  border: 2px solid #e798b6;
+  border-radius: 2px;
+}
+
+.submit-btn:hover {
+  opacity: 0.8;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #e798b6;
+  cursor: pointer;
+}
