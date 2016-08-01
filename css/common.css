@@ -2,6 +2,7 @@
 @import url(./plugin/ie10-viewport-bug-workaround.css);
 
 @import url(./base/style.css);
+@import url(./base/theme.css);
 
 @import url(./common/common.css);
 @import url(./common/footer.css);
