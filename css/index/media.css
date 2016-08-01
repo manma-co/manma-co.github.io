@@ -1,21 +1,16 @@
-.media-content {
-}
-
-.media-wrapper {
-}
-
 .media-box {
   border: 1.5px solid #ddd;
-  box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.8px 0.8px rgba(0, 0, 0, 0.1);
   padding: 5%;
   margin: 3% 0;
-  height: 300px;
 }
 
-.media-image-wrapper img {
-  width: 180px;
-  height: auto;
+.image-center {
   text-align: center;
+}
+
+.media-logo img {
+  height: 30px;
 }
 
 .media-type {
@@ -35,4 +30,3 @@
     max-width: 100%;
     height: auto;
   }
-}
