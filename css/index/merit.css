@@ -1,6 +1,9 @@
-.merit {
-  padding-right: 20%;
-  padding-left: 20%;
+.merit-section {
+  background-color: #fff1e4;
+}
+
+.merit-images {
+  padding: 5% 20%;
 }
 
 .merit-text {
