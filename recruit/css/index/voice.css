@@ -1,0 +1,38 @@
+#voice {
+  /*background-color: #fff1e4;*/
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  background-image: url(../../image/index/voice/voice-bg.jpg);
+}
+
+.voice-content {
+  padding: 5% 15%;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../../image/index/voice/voice-content-bg.png);
+}
+
+.voice-commentator {
+  text-align: center;
+}
+
+.voice-name {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.voice-comment {
+  padding: 10% 0;
+}
+
+.voice-title {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.performance-content {
+  padding: 5% 15%;
+}

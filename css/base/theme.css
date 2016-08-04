@@ -1,6 +1,7 @@
 .bg-color-yellow {
   background-color: #fff1e4;
 }
+
 .bg-color-white {
   background-color: #fff;
 }
@@ -74,4 +75,3 @@
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
   }
-}
