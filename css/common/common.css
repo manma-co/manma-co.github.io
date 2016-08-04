@@ -10,11 +10,6 @@ a:hover {
   margin: 5px;
 }
 
-.btn, .btn:hover {
-  background-color: #e798b6;
-  border-color: #e798b6;
-}
-
  .btn:hover {
   opacity: 0.8;
 }

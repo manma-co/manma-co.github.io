@@ -29,14 +29,16 @@
   background-color: #fff;
 }
 
-.btn-primary, .btn-primary:hover {
+.form-header {
+  background-color: #ff99b9 !important;
+}
+
+.btn, .btn:hover {
   color: #ff99b9;
   background-color: #fff;
   border-color: #fff;
-}
-
-.form-header {
-  background-color: #ff99b9 !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 @media (min-width: 768px) {
