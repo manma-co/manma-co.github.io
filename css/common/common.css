@@ -53,7 +53,7 @@ hr {
   height: 300px;
 }
 
-.section-title {
+.subpage-title {
   margin-top: 100px;
   margin-bottom: 5px;
   color: #fff;
@@ -62,7 +62,7 @@ hr {
   letter-spacing: 0.05em;
 }
 
-.section-subtitle {
+.subpage-subtitle {
   margin-bottom: 25px;
   color: #fff;
   font-size: 1em;
