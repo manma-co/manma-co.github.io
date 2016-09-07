@@ -8,10 +8,6 @@
   box-shadow: 0 0.8px 0.8px rgba(0, 0, 0, 0.1);
 }
 
-.media-logo img {
-  height: 30px;
-}
-
 .media-type {
   background-color: #e798b6;
   color: #fff;
@@ -22,6 +18,15 @@
 
  a:hover {
   opacity: 0.7;
+}
+
+.media-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.index-media img {
+  height: 30px;
 }
 
 @media only screen and (max-width: 768px) {
