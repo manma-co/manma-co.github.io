@@ -1,11 +1,4 @@
-.merit-section {
-  background-color: #fff1e4;
-}
-
-.merit-images {
-  padding: 5% 20%;
-}
-
-.merit-text {
+.merit p {
+  padding-top: 3%;
   text-align: right;
 }
