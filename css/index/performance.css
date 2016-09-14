@@ -1,0 +1,9 @@
+.performance h5 span {
+  font-size: 5em;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.performance img {
+  padding-bottom: 5px;
+}
