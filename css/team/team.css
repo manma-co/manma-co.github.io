@@ -23,14 +23,6 @@
   text-align: center;
 }
 
-.team-type {
-  background-color: #e798b6;
-  color: #fff;
-  font-size: 10px;
-  margin-left: 20px;
-  padding: 5px;
-}
-
 .image-wrapper:hover {
   opacity: 0.7;
 }
