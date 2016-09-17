@@ -1,8 +1,0 @@
-#tab .tab-content {
-  padding: 0 10%;
-  box-sizing: border-box;
-}
-
-.tab-item:hover img {
-  opacity: 0.8;
-}
