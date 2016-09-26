@@ -3,17 +3,21 @@
   background-position: center;
   background-repeat: repeat-y;
   background-size:100%;
-}
-
-.qa-wrapper {
   padding: 5% 10%;
 }
 
-.qa-items {
-  padding: 10px;
+.qa-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.qa-title {
-  font-size: 1.4em;
+.qa h4 {
   font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.qa h6 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

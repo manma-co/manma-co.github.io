@@ -1,16 +1,11 @@
-.entry-content {
+.entry-section {
   padding: 2%;
 }
 
-.entry-title {
+.entry h4 {
   color: #89e2b3;
-  font-size: 1.5em;
 }
 
 .entry-btn {
   padding: 1%;
-}
-
-.concept-image {
-  padding: 3%;
 }

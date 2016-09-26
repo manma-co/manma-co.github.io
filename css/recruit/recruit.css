@@ -1,17 +1,9 @@
-.recruit-content {
+.recruit h4 {
   text-align: center;
+  -webkit-margin-before: 0.5em;
 }
 
-.recruit-images {
-  margin: 0 10%;
-}
-
-.recruit-title {
-  font-size: 1.6em;
-  font-weight: 500;
-  margin: 0 20px 0 0;
-}
-
-.image-wrapper img {
-  margin: 10px 0;
+.recruit p {
+  padding-right: 10%;
+  padding-left: 10%;
 }
