@@ -59,9 +59,22 @@
   </header>
   <section id="keyvisual" class="keyvisual section keyvisual-main">
     <div class="col-md-10 col-md-offset-1 text-center">
-      <div class="keyvisual-text">
+      <div class="keyvisual-text padding-bottom-20">
         <img class="img padding-center" src="image/index/keyvisual/keyvisual.png" alt="">
       </div>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7&appId=1184172474972412";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <ul class="social-share row margin-0">
+        <li><iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fmanma.co%2F&width=142&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1184172474972412" width="142" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+        <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://manma.co/" data-text="【家族留学】子育て中のご家庭を1日訪問。ママの生き方についてお話しを伺い、様々な家族のあり方を知ることを通して、自身のキャリアプランと向き合います。by manma" data-via="pompom0c0" data-lang="ja" data-hashtags="家族留学">Tweet</a></li>
+      </ul>
     </div>
   </section>
   <section id="entry" class="entry entry-section text-center">
