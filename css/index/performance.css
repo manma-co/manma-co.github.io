@@ -16,3 +16,9 @@
 .performance img {
   padding-bottom: 5px;
 }
+
+@media screen and (max-width: 640px) {
+  .performance-box {
+    margin-bottom: 3%;
+  }
+}

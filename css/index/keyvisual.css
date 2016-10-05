@@ -43,6 +43,8 @@
   .keyvisual img {
     padding-right: 5%;
     padding-left: 5%;
+    max-width: 100%;
+    height: auto;
   }
 
   .subkeyvisual-text {
