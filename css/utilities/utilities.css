@@ -285,11 +285,11 @@
 
 .btn-white {
   background-color: #fff;
-  color: #58c8c5;
+  color: #ff99b9;
 }
 
 .btn-blue {
-  background-color: #58c8c5;
+  background-color: #99cc99;
   color: #fff;
 }
 
@@ -299,11 +299,11 @@
 }
 
 .btn-white:hover {
-  color: #58c8c5;
+  color: #99cc99;
 }
 
 .btn-blue:hover {
-  color: #fff;
+  color: #99cc99;
 }
 
 hr {
