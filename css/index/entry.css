@@ -9,3 +9,10 @@
 .entry-btn {
   padding: 1%;
 }
+
+@media screen and (max-width: 640px) {
+  .entry-section {
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+}
