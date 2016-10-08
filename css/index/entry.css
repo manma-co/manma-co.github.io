@@ -2,7 +2,7 @@
   padding: 2%;
 }
 
-.entry h4 {
+.entry h4, .entry p {
   color: #89e2b3;
 }
 

@@ -288,22 +288,26 @@
   color: #ff99b9;
 }
 
-.btn-blue {
-  background-color: #99cc99;
+.btn-pink {
+  background-color: #ff99b9;
   color: #fff;
 }
 
+.btn-green {
+  background-color: #89e2b3;
+  color: #fff;
+}
 
 .btn:hover, .btn:focus {
   box-shadow: 1px 1px 3px rgba(0,0,0,.1);
 }
 
 .btn-white:hover {
-  color: #99cc99;
+  color: #ff99b9;
 }
 
-.btn-blue:hover {
-  color: #99cc99;
+.btn-green:hover {
+  color: #fff;
 }
 
 hr {
@@ -318,13 +322,12 @@ hr {
 }
 
 .section {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .section-header {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-bottom: 2%;
   text-align: center;
 }
 
